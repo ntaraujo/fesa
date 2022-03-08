@@ -26,8 +26,6 @@ namespace fesa
             // saida de dados
             Console.WriteLine();
             Console.Write($"Olá {nome}, seja bem vindo. \n");
-            Console.Write($"Você tem {idade} anos de idade");
-
             Console.ReadKey();
         }
     }
