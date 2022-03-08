@@ -21,7 +21,7 @@ namespace aula3._1
             }
             else
             {
-                Console.Write("Esse ano não é é bissexto");
+                Console.Write("Esse ano não é bissexto");
             }
 
             Console.ReadKey();
