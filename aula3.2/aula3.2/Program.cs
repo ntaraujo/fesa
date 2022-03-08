@@ -10,12 +10,12 @@ namespace aula3._2
     {
         static void Main(string[] args)
         {
-            Int16 ano;
+            Int16 numero;
 
             Console.Write("Qual o número a verificar? ");
-            ano = Int16.Parse(Console.ReadLine());
+            numero = Int16.Parse(Console.ReadLine());
 
-            if (ano % 2 == 0)
+            if (numero % 2 == 0)
             {
                 Console.Write("Esse número é par");
             }
