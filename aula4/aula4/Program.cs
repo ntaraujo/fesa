@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace aula4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            String frase;
+            char letra;
+
+            Console.Write("Digite uma frase qualquer: ");
+            frase = Console.ReadLine();
+
+            Console.Write("Digite uma letra qualquer: ");
+            letra = Console.ReadLine()[0];
+
+            if (letra == 'S' || letra == 's')
+            {
+                Console.WriteLine("Foi escolhido o SIM");
+            }
+            else
+            {
+                Console.WriteLine("Não foi escolhido o SIM");
+            }
+
+            Console.WriteLine("A frase tem {0} caracteres", frase.Length);
+            Console.WriteLine("A primeira letra da frase é {0}", frase[0]);
+            Console.WriteLine("A última letra da frase é: {0}", frase[frase.Length - 1]);
+
+            Console.ReadKey();
+        }
+    }
+}
