@@ -32,6 +32,18 @@ namespace aula4
             Console.WriteLine("A primeira letra da frase é {0}", frase[0]);
             Console.WriteLine("A última letra da frase é: {0}", frase[frase.Length - 1]);
 
+            String sub;
+
+            if (frase.Length < 3)
+            {
+                Console.WriteLine("Frase precisa ter mais que 3 letras");
+            }
+            else
+            {
+                sub = frase.Substring(0, 3);
+                Console.WriteLine($"As 3 primeiras letras são {sub}");
+            }
+
             Console.ReadKey();
         }
     }
