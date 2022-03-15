@@ -44,6 +44,22 @@ namespace aula4
                 Console.WriteLine($"As 3 primeiras letras são {sub}");
             }
 
+            // procurando caracteres
+
+            int pos = frase.IndexOf(letra);
+            if (pos == -1)
+            {
+                Console.WriteLine($"A letra {letra} não existe na frase {frase}");
+            }
+            else
+            {
+                Console.WriteLine($"A letra {letra} está na posição {pos}");
+
+                // acha a segunda letra
+
+                Console.WriteLine($"A segunda letra aparece na posição {frase.IndexOf(letra, pos+1)}");
+            }
+
             Console.ReadKey();
         }
     }
