@@ -12,9 +12,12 @@ namespace aula5
         {
             Int16 inicio, quantidade, num_alg;
             string output, new_output, algarismos;
+            char last_char;
 
             algarismos = "0123456789";
             new_output = "";
+            last_char = 'a';
+            num_alg = 1;
 
             inicio = Convert.ToInt16(Console.ReadLine());
             quantidade = Convert.ToInt16(Console.ReadLine());
@@ -24,6 +27,23 @@ namespace aula5
 
             foreach (int i in Enumerable.Range(0,  quantidade))
             {
+                foreach (char ch in output)
+                {
+                    if (ch == last_char)
+                    {
+                        num_alg++;
+                    }
+                    else
+                    {
+                        new_output = new_output + $"{num_alg}{ch}";
+                        num_alg = 1;
+                    }
+                    last_char = ch;
+                }
+
+                last_char = 'a';
+                num_alg = 0;
+
                 foreach (char ch in algarismos)
                 {
                     num_alg = (short)output.Count(f => (f == ch));
