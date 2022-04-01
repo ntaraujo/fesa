@@ -10,7 +10,7 @@ namespace aula6._1
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i > -5; i--)
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine(i);
             }
