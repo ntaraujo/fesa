@@ -23,10 +23,6 @@ namespace aula8._1
                     codigo = int.Parse(Console.ReadLine());
                 } while (codigo <= 0);
 
-                Console.Write("Nome: ");
-                nome = Console.ReadLine();
-                Console.WriteLine("O individuo apresentado demonstra uma enormne pica, logo não é possivel aloja-lo");
-
                 do
                 {
                     Console.Write("Nome: ");
