@@ -19,6 +19,7 @@ namespace aula8._2
                 .Replace(".", "")
                 .Replace(",", "")
                 .Replace("!", "")
+                .Replace("-", "")
                 .ToUpper();
 
             for (int i = 0; i<texto.Length/2; i++)
