@@ -14,7 +14,12 @@ namespace aula8._2
             bool palindromo = true;
 
             Console.Write("Digite uma palavra ou frase: ");
-            texto = Console.ReadLine().Replace(" ", "");
+            texto = Console.ReadLine()
+                .Replace(" ", "")
+                .Replace(".", "")
+                .Replace(",", "")
+                .Replace("!", "")
+                .ToUpper();
 
             for (int i = 0; i<texto.Length/2; i++)
             {
