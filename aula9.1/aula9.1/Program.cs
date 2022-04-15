@@ -10,7 +10,7 @@ namespace aula9._1
     {
         static void Main(string[] args)
         {
-            string nome;
+            string nome, sobrenome = "";
             int espaco, letra;
 
             Console.Write("Informe um nome: ");
@@ -24,11 +24,11 @@ namespace aula9._1
             }
             else
             {
-                Console.Write("Seu sobrenome é: ");
                 for (int i = espaco+1; i < nome.Length; i++)
                 {
-                    Console.Write(nome[i]);
+                    sobrenome += nome[i];
                 }
+                Console.Write($"Seu sobrenome é: {sobrenome}");
             }
 
             Console.ReadKey();
