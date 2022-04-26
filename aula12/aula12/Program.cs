@@ -82,6 +82,12 @@ namespace aula12
                 }
                 Console.Write(texto);
             }
+            
+            if (resposta != "5")
+            {
+                Console.WriteLine();
+                Main(new string[0]);
+            }
         }
     }
 }
