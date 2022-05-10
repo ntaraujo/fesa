@@ -32,7 +32,7 @@ namespace aula13._2
             {
                 Console.WriteLine($"Soma da linha {linha}: {somas[linha]}");
             }
-
+    
         }
     }
 }
