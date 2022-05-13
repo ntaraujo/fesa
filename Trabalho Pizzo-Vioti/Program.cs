@@ -92,27 +92,27 @@ namespace Trabalho_Pizzo_Vioti
                         Console.Write($"\nO valor do cosseno é: {cosseno}");
                     }
                     //seno
-                    if (opção == '2')
+                    else if (opção == '2')
                     {
                         seno = moduloProdutoVetorial / (moduloVetor1 * moduloVetor2);
 
                         Console.Write($"\nO valor do seno é: {seno} ");
                     }
                     //Produto Escalar
-                    if (opção == '3')
+                    else if (opção == '3')
                     {
 
                         Console.Write($"\nO produto escalar desses vetores é igual a: {produtoEscalar}");
                     }
                     //Ângulo entre os vetores
-                    if (opção == '4')
+                    else if (opção == '4')
                     {
                         angulo = Math.Acos(cosseno) * 57.2958;
 
                         Console.Write($"\nO ângulo entre os vetores vale {angulo} graus");
                     }
                     //Área do triângulo
-                    if (opção == '5')
+                    else if (opção == '5')
                     {
                         areaTriangulo = moduloProdutoVetorial / 2;
 
