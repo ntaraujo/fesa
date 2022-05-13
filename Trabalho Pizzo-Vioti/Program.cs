@@ -34,13 +34,14 @@ namespace Trabalho_Pizzo_Vioti
                     vetor2[1] = int.Parse(Console.ReadLine());
                     Console.Write("Digite o valor de Z para o segundo vetor: ");
                     vetor2[2] = int.Parse(Console.ReadLine());
-                    Console.WriteLine($"Os vetores são: Vetor 1 ({vetor1[0]},{vetor1[1]},{vetor1[2]}) e Vetor 2: ({vetor2[0]},{vetor2[1]},{vetor2[2]})");
-                    Console.WriteLine("Aperte Enter para continuar");
+                    Console.WriteLine($"Os vetores são: Vetor 1 ({vetor1[0]},{vetor1[1]},{vetor1[2]})" +
+                                                   $" e Vetor 2 ({vetor2[0]},{vetor2[1]},{vetor2[2]})");
+                    Console.Write("Aperte Enter para continuar ");
                     Console.ReadLine();
 
                     do
                     {
-                        Console.WriteLine("Deseja mudar os vetores? Digite S para sim ou N para não");
+                        Console.Write("Deseja mudar os vetores? Digite S para sim ou N para não: ");
                         opção = Console.ReadLine().ToLower()[0];
                         if (opção != 's' && opção != 'n')
                         {
@@ -56,15 +57,17 @@ namespace Trabalho_Pizzo_Vioti
                 do
                 {
                     //Menu de seleção de operações
-                    Console.WriteLine("Qual operação você deseja fazer?\n" +
-                                      "1- Cosseno\n" +
-                                      "2- Seno\n" +
-                                      "3- Produto escalar\n" +
-                                      "4- Ângulo entre os vetores\n" +
-                                      "5- Área do triângulo\n" +
-                                      "6- Área do paralelogramo"
-                                      );
+                    Console.Write("MENU:\n" +
+                                  "1- Cosseno\n" +
+                                  "2- Seno\n" +
+                                  "3- Produto escalar\n" +
+                                  "4- Ângulo entre os vetores\n" +
+                                  "5- Área do triângulo\n" +
+                                  "6- Área do paralelogramo" +
+                                  "Qual operação você deseja fazer? "
+                                  );
                     opção = Console.ReadLine().ToLower()[0];
+                    Console.WriteLine();
 
                     //Calculos
 
@@ -89,27 +92,27 @@ namespace Trabalho_Pizzo_Vioti
                     //Cosseno
                     if (opção == '1')
                     {
-                        Console.Write($"\nO valor do cosseno é: {cosseno}");
+                        Console.Write($"O valor do cosseno é: {cosseno}");
                     }
                     //seno
                     else if (opção == '2')
                     {
                         seno = moduloProdutoVetorial / (moduloVetor1 * moduloVetor2);
 
-                        Console.Write($"\nO valor do seno é: {seno} ");
+                        Console.Write($"O valor do seno é: {seno} ");
                     }
                     //Produto Escalar
                     else if (opção == '3')
                     {
 
-                        Console.Write($"\nO produto escalar desses vetores é igual a: {produtoEscalar}");
+                        Console.Write($"O produto escalar desses vetores é igual a: {produtoEscalar}");
                     }
                     //Ângulo entre os vetores
                     else if (opção == '4')
                     {
                         angulo = Math.Acos(cosseno) * 57.2958;
 
-                        Console.Write($"\nO ângulo entre os vetores vale {angulo} graus");
+                        Console.Write($"O ângulo entre os vetores vale {angulo} graus");
                     }
                     //Área do triângulo
                     else if (opção == '5')
@@ -119,7 +122,7 @@ namespace Trabalho_Pizzo_Vioti
                         if (areaTriangulo == 0)
                             Console.Write("Área não existente");
                         else
-                            Console.Write($"\nA área do triângulo é: {areaTriangulo}");
+                            Console.Write($"A área do triângulo é: {areaTriangulo}");
                     }
                     //Área do paralelogramo
                     else if (opção == '6')
@@ -128,17 +131,19 @@ namespace Trabalho_Pizzo_Vioti
                         if (moduloProdutoVetorial == 0)
                             Console.Write("Área não existente");
                         else
-                            Console.Write($"\nA área do paralelogramo é: {moduloProdutoVetorial}");
+                            Console.Write($"A área do paralelogramo é: {moduloProdutoVetorial}");
                     }
                     else
+                    {
                         Console.WriteLine("Selecione uma opção válida");
+                    }
                 }
                 while (opção != '1' && opção != '2' && opção != '3' && opção != '4' && opção != '5' && opção != '6');
                 Console.Clear();
 
                 do
                 {
-                    Console.WriteLine("Aperte S para sair do programa ou C para continuar");
+                    Console.Write("Aperte S para sair do programa ou C para continuar: ");
                     opção = Console.ReadLine().ToLower()[0];
                     if (opção != 's' && opção != 'c')
                     {
