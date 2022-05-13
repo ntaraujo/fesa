@@ -14,10 +14,9 @@ namespace Trabalho_Pizzo_Vioti
             int[] vetor2 = new int[3];
             int[] produtoVetorial = new int[3];
             float produtoEscalar;
-            int calculo1, calculo2, calculo3, opçãoMenu;
+            int calculo1, calculo2, calculo3;
             double moduloVetor1, moduloVetor2, moduloProdutoVetorial, cosseno, areaTriangulo, seno, angulo;
-            string seleçãoOpçãoSair, seleçãoMenu, seleçãoRefazerEntrada;
-            char opçãoSair, opçãoRefazerEntrada;
+            char opção;
 
             do
             {
@@ -42,15 +41,16 @@ namespace Trabalho_Pizzo_Vioti
                     do
                     {
                         Console.WriteLine("Deseja mudar os vetores? Digite S para sim ou N para não");
-                        seleçãoRefazerEntrada = Console.ReadLine().ToLower();
-                        opçãoRefazerEntrada = seleçãoRefazerEntrada[0];
-                        if (opçãoRefazerEntrada != 's' && opçãoRefazerEntrada != 'n')
+                        opção = Console.ReadLine().ToLower()[0];
+                        if (opção != 's' && opção != 'n')
+                        {
                             Console.WriteLine("Digite uma opção válida");
+                        }
                     }
-                    while (opçãoRefazerEntrada != 's' && opçãoRefazerEntrada != 'n');
+                    while (opção != 's' && opção != 'n');
 
                 }
-                while (opçãoRefazerEntrada == 's');
+                while (opção == 's');
                 Console.Clear();
 
                 do
@@ -64,8 +64,7 @@ namespace Trabalho_Pizzo_Vioti
                                       "5- Área do triângulo\n" +
                                       "6- Área do paralelogramo"
                                       );
-                    seleçãoMenu = Console.ReadLine().ToLower();
-                    opçãoMenu = seleçãoMenu[0];
+                    opção = Console.ReadLine().ToLower()[0];
 
                     //Calculos
 
@@ -88,32 +87,32 @@ namespace Trabalho_Pizzo_Vioti
 
                     //operações
                     //Cosseno
-                    if (opçãoMenu == '1')
+                    if (opção == '1')
                     {
                         Console.Write($"\nO valor do cosseno é: {cosseno}");
                     }
                     //seno
-                    if (opçãoMenu == '2')
+                    if (opção == '2')
                     {
                         seno = moduloProdutoVetorial / (moduloVetor1 * moduloVetor2);
 
                         Console.Write($"\nO valor do seno é: {seno} ");
                     }
                     //Produto Escalar
-                    if (opçãoMenu == '3')
+                    if (opção == '3')
                     {
 
                         Console.Write($"\nO produto escalar desses vetores é igual a: {produtoEscalar}");
                     }
                     //Ângulo entre os vetores
-                    if (opçãoMenu == '4')
+                    if (opção == '4')
                     {
                         angulo = Math.Acos(cosseno) * 57.2958;
 
                         Console.Write($"\nO ângulo entre os vetores vale {angulo} graus");
                     }
                     //Área do triângulo
-                    if (opçãoMenu == '5')
+                    if (opção == '5')
                     {
                         areaTriangulo = moduloProdutoVetorial / 2;
 
@@ -123,7 +122,7 @@ namespace Trabalho_Pizzo_Vioti
                             Console.Write($"\nA área do triângulo é: {areaTriangulo}");
                     }
                     //Área do paralelogramo
-                    else if (opçãoMenu == '6')
+                    else if (opção == '6')
                     {
 
                         if (moduloProdutoVetorial == 0)
@@ -134,20 +133,21 @@ namespace Trabalho_Pizzo_Vioti
                     else
                         Console.WriteLine("Selecione uma opção válida");
                 }
-                while (opçãoMenu != '1' && opçãoMenu != '2' && opçãoMenu != '3' && opçãoMenu != '4' && opçãoMenu != '5' && opçãoMenu != '6');
+                while (opção != '1' && opção != '2' && opção != '3' && opção != '4' && opção != '5' && opção != '6');
                 Console.Clear();
 
                 do
                 {
                     Console.WriteLine("Aperte S para sair do programa ou C para continuar");
-                    seleçãoOpçãoSair = Console.ReadLine().ToLower();
-                    opçãoSair = seleçãoOpçãoSair[0];
-                    if (opçãoSair != 's' && opçãoSair != 'c')
+                    opção = Console.ReadLine().ToLower()[0];
+                    if (opção != 's' && opção != 'c')
+                    {
                         Console.WriteLine("Digite uma opção válida");
+                    }
                 }
-                while (opçãoSair != 's' && opçãoSair != 'c');
+                while (opção != 's' && opção != 'c');
             }
-            while (opçãoSair == 'c');
+            while (opção == 'c');
         }
     }
 }
