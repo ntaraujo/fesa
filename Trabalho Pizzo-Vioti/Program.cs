@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Trabalho_Pizzo_Vioti
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int[] vetor1 = new int[3];
             int[] vetor2 = new int[3];
