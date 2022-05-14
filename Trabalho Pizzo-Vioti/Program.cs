@@ -9,8 +9,7 @@ namespace Trabalho_Pizzo_Vioti
             int[] vetor1 = new int[3];
             int[] vetor2 = new int[3];
             int[] produtoVetorial = new int[3];
-            float produtoEscalar;
-            int calculo1, calculo2, calculo3;
+            int produtoEscalar, calculo1, calculo2, calculo3;
             double moduloVetor1, moduloVetor2, moduloProdutoVetorial, cosseno;
             char opção;
 
