@@ -14,6 +14,18 @@ namespace Trabalho_Pizzo_Vioti
             double moduloVetor1, moduloVetor2, moduloProdutoVetorial, cosseno;
             char opção;
 
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine("Bem-vindo! Esse trabalho foi feito por:\n");
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine("Kelvin,");
+            System.Threading.Thread.Sleep(700);
+            Console.WriteLine("Nathan,");
+            System.Threading.Thread.Sleep(700);
+            Console.WriteLine("e William\n");
+            System.Threading.Thread.Sleep(700);
+            Console.Write("Pressione qualquer tecla para começar! ");
+            Console.ReadKey();
+
             do
             {
                 do
