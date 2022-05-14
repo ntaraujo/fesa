@@ -51,7 +51,7 @@ namespace Trabalho_Pizzo_Vioti
 
                     do
                     {
-                        Console.Write("Deseja mudar os vetores? Digite S para sim ou N para não: ");
+                        Console.Write("Deseja trocar os valores dos vetores? Digite S para sim ou N para não: ");
                         opção = Console.ReadLine().ToLower()[0];
                         if (opção != 's' && opção != 'n')
                         {
@@ -153,20 +153,20 @@ namespace Trabalho_Pizzo_Vioti
 
                     do
                     {
-                        Console.Write("Digite C para continuar, M para mudar os vetores e S para sair do programa: ");
+                        Console.Write("Digite M para voltar ao menu, T para trocar os vetores e S para sair do programa: ");
                         opção = Console.ReadLine().ToLower()[0];
-                        if (opção != 'c' && opção != 'm' && opção != 's')
+                        if (opção != 'm' && opção != 't' && opção != 's')
                         {
                             Console.Clear();
                             Console.WriteLine("Digite uma opção válida");
                         }
                     }
-                    while (opção != 'c' && opção != 'm' && opção != 's');
+                    while (opção != 'm' && opção != 't' && opção != 's');
 
-                } while (opção == 'c');  // Volta pro menu
+                } while (opção == 'm');  // Volta pro menu
 
             }
-            while (opção == 'm');  // Volta pra atribuição dos vetores
+            while (opção == 't');  // Volta pra atribuição dos vetores
         }
     }
 }
