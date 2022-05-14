@@ -11,7 +11,7 @@ namespace Trabalho_Pizzo_Vioti
             int[] produtoVetorial = new int[3];
             float produtoEscalar;
             int calculo1, calculo2, calculo3;
-            double moduloVetor1, moduloVetor2, moduloProdutoVetorial, cosseno, areaTriangulo, seno, angulo;
+            double moduloVetor1, moduloVetor2, moduloProdutoVetorial, cosseno;
             char opção;
 
             do
@@ -101,7 +101,7 @@ namespace Trabalho_Pizzo_Vioti
                         // Seno
                         else if (opção == '2')
                         {
-                            seno = moduloProdutoVetorial / (moduloVetor1 * moduloVetor2);
+                            double seno = moduloProdutoVetorial / (moduloVetor1 * moduloVetor2);
                             Console.WriteLine($"O valor do seno é {seno}");
                         }
 
@@ -114,14 +114,14 @@ namespace Trabalho_Pizzo_Vioti
                         // Ângulo entre os vetores
                         else if (opção == '4')
                         {
-                            angulo = Math.Acos(cosseno) * 57.2958;
+                            double angulo = Math.Acos(cosseno) * 57.2958;
                             Console.WriteLine($"O ângulo entre os vetores é de {angulo} graus");
                         }
 
                         // Área do triângulo
                         else if (opção == '5')
                         {
-                            areaTriangulo = moduloProdutoVetorial / 2;
+                            double areaTriangulo = moduloProdutoVetorial / 2;
                             Console.WriteLine($"A área do triângulo é {areaTriangulo}");
                         }
 
