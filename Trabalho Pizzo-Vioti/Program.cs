@@ -152,10 +152,10 @@ namespace Trabalho_Pizzo_Vioti
                     }
                     while (opção != 'c' && opção != 'm' && opção != 's');
 
-                } while (opção == 'c');
+                } while (opção == 'c');  // Volta pro menu
 
             }
-            while (opção == 'm');
+            while (opção == 'm');  // Volta pra atribuição dos vetores
         }
     }
 }
