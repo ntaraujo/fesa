@@ -30,21 +30,21 @@ namespace Trabalho_Pizzo_Vioti
                 do
                 {
                     Console.Clear();
-
                     Console.Write("Digite o valor de X para o primeiro vetor: ");
                     vetor1[0] = int.Parse(Console.ReadLine());
                     Console.Write("Digite o valor de Y para o primeiro vetor: ");
                     vetor1[1] = int.Parse(Console.ReadLine());
                     Console.Write("Digite o valor de Z para o primeiro vetor: ");
                     vetor1[2] = int.Parse(Console.ReadLine());
-                    Console.Clear();
 
+                    Console.Clear();
                     Console.Write("Digite o valor de X para o segundo vetor: ");
                     vetor2[0] = int.Parse(Console.ReadLine());
                     Console.Write("Digite o valor de Y para o segundo vetor: ");
                     vetor2[1] = int.Parse(Console.ReadLine());
                     Console.Write("Digite o valor de Z para o segundo vetor: ");
                     vetor2[2] = int.Parse(Console.ReadLine());
+
                     Console.Clear();
                     Console.WriteLine($"Os vetores são: Vetor 1 ({vetor1[0]},{vetor1[1]},{vetor1[2]})" +
                                                    $" e Vetor 2 ({vetor2[0]},{vetor2[1]},{vetor2[2]})");
