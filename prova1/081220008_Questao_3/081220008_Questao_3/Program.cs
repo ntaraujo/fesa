@@ -11,8 +11,11 @@ namespace _081220008_Questao_3
         static void Main(string[] args)
         {
             bool errado;
+
             string[] nomes = new string[100];
             string nome_aux;
+            int index_espaco;
+
             int[] idades = new int[100];
             int idade_aux;
             int maior_idade = 0, index_maior_idade = 0;
@@ -24,7 +27,8 @@ namespace _081220008_Questao_3
                     Console.Write("Seu nome completo: ");
                     nome_aux = Console.ReadLine();
 
-                    if (nome_aux.IndexOf(' ') == -1)
+                    index_espaco = nome_aux.LastIndexOf(' ');
+                    if (index_espaco == -1 || index_espaco == 0 || index_espaco == nome_aux.Length - 1)
                     {
                         Console.WriteLine("O nome tem que ter pelo menos 2 palavras.");
                         errado = true;
