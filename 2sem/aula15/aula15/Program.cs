@@ -6,7 +6,14 @@ namespace aula15
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Insira a hora: ");
+
+            int hora = int.Parse(Console.ReadLine());
+
+            string mensagem = (hora > 12) ? "Bom dia!" : "Boa tarde!";
+
+            Console.WriteLine(mensagem);
+
         }
     }
 }
