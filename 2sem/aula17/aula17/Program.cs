@@ -6,25 +6,21 @@ namespace aula17
     {
         static void Main(string[] args)
         {
-            string rg = "350983185";
-
-            int[] rg_multiplicado = new int[8];
-
-            for (int i = 0, ajudador = 9; i < 7; i++, ajudador--)
+            while (true)
             {
-                rg_multiplicado[i] = (rg[i] - '0') * ajudador;
+                Console.Write("RG: ");
+                string rg = Console.ReadLine();
+
+                int rg_soma = 0;
+
+                for (int i = 0, ajudador = 9; i < 8; i++, ajudador--)
+                {
+                    rg_soma += (rg[i] - '0') * ajudador;
+                }
+
+                bool valido = rg_soma % 11 == rg[rg.Length - 1] - '0';
+                Console.WriteLine("O RG é " + (valido ? "válido" : "falso"));
             }
-
-            int rg_soma = 0;
-
-            foreach (int n in rg_multiplicado)
-            {
-                rg_soma += n;
-            }
-
-            bool valido = rg_soma % 11 == Convert.ToInt32(rg[rg.Length - 1]);
-            Console.WriteLine(rg[rg.Length - 1] - '0');
-            Console.WriteLine("O RG é " + (valido ? "válido" : "falso"));
         }
     }
 }
