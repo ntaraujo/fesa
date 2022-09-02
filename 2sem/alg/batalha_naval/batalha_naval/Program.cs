@@ -26,13 +26,14 @@ namespace batalha_naval
             {
                 tamanho_esperado = tamanhos[i];
 
-                // posição máxima pra posicionar é o tamanho do tabuleiro menos o da embarcação
+                // posição aleatória entre o começo do tabuleiro e a posição máxima possível
                 posicao_aleatoria = aleatorio.Next(59-tamanho_esperado);
+                // a posição máxima possível pra posicionar a embarcação é o tamanho do tabuleiro menos o tamanho da embarcação
 
+                // é tudo água onde eu quero colocar a embarcação?
                 tamanho_esperado_disponivel = true;
                 for (int i_posicao = 0; i_posicao < tamanho_esperado; i_posicao++)
                 {
-                    // é tudo água onde eu quero colocar a embarcação?
                     if (tabuleiro[posicao_aleatoria + i_posicao] != 'A')
                     {
                         tamanho_esperado_disponivel = false;
@@ -40,17 +41,21 @@ namespace batalha_naval
                     }
                 }
 
+                // se sim, tira a água do tabuleiro e coloca a embarcação
                 if (tamanho_esperado_disponivel)
                 {
                     for (int i_posicao = 0; i_posicao < tamanho_esperado; i_posicao++)
                     {
                         tabuleiro[posicao_aleatoria + i_posicao] = simbolos[i];
                     }
+                    // informa que uma das X embarcações desse tipo foi posicionada
                     contador++;
                 }
 
+                // se todas as embarcações desse tipo foram posicionadas
                 if (contador == quantidades[i])
                 {
+                    // passa para o próximo tipo
                     i++;
                     contador = 0;
                 }
