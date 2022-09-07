@@ -7,13 +7,19 @@ namespace batalha_naval
     {
         static void Main(string[] args)
         {
+            char[] tabuleiro = TabuleiroAleatorio(60);
+            MostraEmGrade(tabuleiro, 10);
+        }
+
+        static char[] TabuleiroAleatorio(int tamanhoTabuleiro)
+        {
             // PPPPP CCCC CCCC DDD DDD DDD SS SS SS
-            char[] simbolos =    {'P', 'C', 'D', 'S'};
-            int[]  tamanhos =    { 5,   4,   3,   2 };
-            int[]  quantidades = { 1,   2,   3,   3 };
+            char[] simbolos =   { 'P', 'C', 'D', 'S' };
+            int[] tamanhos =    {  5,   4,   3,   2  };
+            int[] quantidades = {  1,   2,   3,   3  };
 
             // enche o tabuleiro de água
-            char[] tabuleiro = new char[60];
+            char[] tabuleiro = new char[tamanhoTabuleiro];
             for (int i = 0; i < tabuleiro.Length; i++)
             {
                 tabuleiro[i] = '.';
@@ -62,10 +68,10 @@ namespace batalha_naval
                 }
             }
 
-            MostraTabuleiro(tabuleiro);
+            return tabuleiro;
         }
 
-        static void MostraTabuleiro(char[] tabuleiro)
+        static void MostraEmGrade(char[] cadeiaDeTexto, int colunas)
         {
             // se no Windows
             if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
@@ -74,11 +80,11 @@ namespace batalha_naval
                 Console.WindowWidth = 35;
             }
 
-            for (int i = 0; i < tabuleiro.Length; i++)
+            for (int i = 0; i < cadeiaDeTexto.Length; i++)
             {
-                Console.Write(tabuleiro[i] + " ");
+                Console.Write(cadeiaDeTexto[i] + " ");
 
-                if (i % 10 == 9)
+                if ((i+1) % colunas == 0)
                 {
                     Console.WriteLine();
                 }
