@@ -8,13 +8,15 @@ namespace batalha_naval
         static void Main(string[] args)
         {
             bool continuar = true;
+            string resposta;
+            char[] tabuleiro;
             do
             {
-                char[] tabuleiro = TabuleiroAleatorio(60);
+                tabuleiro = TabuleiroAleatorio(60);
                 MostraEmGrade(tabuleiro, 10);
 
-                Console.WriteLine("Deseja rodar de novo? (S/n) ");
-                string resposta = Console.ReadLine().ToUpper();
+                Console.Write("Deseja rodar de novo? (S/n) ");
+                resposta = Console.ReadLine().ToUpper();
 
                 if (resposta.Length == 1 && resposta[0] == 'N')
                 {
