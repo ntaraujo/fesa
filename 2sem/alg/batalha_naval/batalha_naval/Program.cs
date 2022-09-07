@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
 
 namespace batalha_naval
 {
@@ -92,13 +91,6 @@ namespace batalha_naval
 
         static void MostraEmGrade(char[] cadeiaDeTexto, int colunas)
         {
-            // se no Windows
-            if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-            {
-                Console.WindowHeight = 10;
-                Console.WindowWidth = 35;
-            }
-
             for (int i = 0; i < cadeiaDeTexto.Length; i++)
             {
                 Console.Write(cadeiaDeTexto[i] + " ");
