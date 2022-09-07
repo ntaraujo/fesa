@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 namespace batalha_naval
 {
@@ -13,9 +14,9 @@ namespace batalha_naval
 
             // enche o tabuleiro de água
             char[] tabuleiro = new char[60];
-            for (int i = 0; i < 60; i++)
+            for (int i = 0; i < tabuleiro.Length; i++)
             {
-                tabuleiro[i] = 'A';
+                tabuleiro[i] = '.';
             }
 
             Random aleatorio = new Random();
@@ -27,14 +28,14 @@ namespace batalha_naval
                 tamanho_esperado = tamanhos[i];
 
                 // posição aleatória entre o começo do tabuleiro e a posição máxima possível
-                posicao_aleatoria = aleatorio.Next(59-tamanho_esperado);
+                posicao_aleatoria = aleatorio.Next(tabuleiro.Length - 1 - tamanho_esperado);
                 // a posição máxima possível pra posicionar a embarcação é o tamanho do tabuleiro menos o tamanho da embarcação
 
                 // é tudo água onde eu quero colocar a embarcação?
                 tamanho_esperado_disponivel = true;
                 for (int i_posicao = 0; i_posicao < tamanho_esperado; i_posicao++)
                 {
-                    if (tabuleiro[posicao_aleatoria + i_posicao] != 'A')
+                    if (tabuleiro[posicao_aleatoria + i_posicao] != '.')
                     {
                         tamanho_esperado_disponivel = false;
                         break;
@@ -61,7 +62,27 @@ namespace batalha_naval
                 }
             }
 
-            Console.WriteLine(tabuleiro);
+            MostraTabuleiro(tabuleiro);
+        }
+
+        static void MostraTabuleiro(char[] tabuleiro)
+        {
+            // se no Windows
+            if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            {
+                Console.WindowHeight = 10;
+                Console.WindowWidth = 35;
+            }
+
+            for (int i = 0; i < tabuleiro.Length; i++)
+            {
+                Console.Write(tabuleiro[i] + " ");
+
+                if (i % 10 == 9)
+                {
+                    Console.WriteLine();
+                }
+            }
         }
     }
 }
