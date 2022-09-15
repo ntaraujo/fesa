@@ -24,7 +24,7 @@ namespace aula19
                 }
                 else
                 {
-                    File.AppendAllText(ARQUIVO, novaLinha);
+                    File.AppendAllText(ARQUIVO, novaLinha + "\n");
                 }
                 
             }
