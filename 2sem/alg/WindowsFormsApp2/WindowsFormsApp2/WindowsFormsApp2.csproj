@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65AC69F8-118F-480D-96FC-572751ABE677}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApp2.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListBox.Designer.cs">
+      <DependentUpon>FrmListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDateTimePicker1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDateTimePicker1.Designer.cs">
+      <DependentUpon>FrmDateTimePicker1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLinkLabel.Designer.cs">
+      <DependentUpon>FrmLinkLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListView.Designer.cs">
+      <DependentUpon>FrmListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDateTimePicker2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDateTimePicker2.Designer.cs">
+      <DependentUpon>FrmDateTimePicker2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadioButton1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadioButton1.Designer.cs">
+      <DependentUpon>FrmRadioButton1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRadioButton2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRadioButton2.Designer.cs">
+      <DependentUpon>FrmRadioButton2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCombobox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCombobox.Designer.cs">
+      <DependentUpon>FrmCombobox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckbox2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckbox2.Designer.cs">
+      <DependentUpon>FrmCheckbox2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckedListBox.Designer.cs">
+      <DependentUpon>FrmCheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCheckbox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCheckbox1.Designer.cs">
+      <DependentUpon>FrmCheckbox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmListBox.resx">
+      <DependentUpon>FrmListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDateTimePicker1.resx">
+      <DependentUpon>FrmDateTimePicker1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLinkLabel.resx">
+      <DependentUpon>FrmLinkLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDateTimePicker2.resx">
+      <DependentUpon>FrmDateTimePicker2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListView.resx">
+      <DependentUpon>FrmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadioButton1.resx">
+      <DependentUpon>FrmRadioButton1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRadioButton2.resx">
+      <DependentUpon>FrmRadioButton2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCombobox.resx">
+      <DependentUpon>FrmCombobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckbox2.resx">
+      <DependentUpon>FrmCheckbox2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckedListBox.resx">
+      <DependentUpon>FrmCheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCheckbox1.resx">
+      <DependentUpon>FrmCheckbox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
