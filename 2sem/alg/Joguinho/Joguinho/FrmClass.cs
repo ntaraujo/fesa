@@ -15,6 +15,14 @@ namespace Joguinho
         public FrmClass()
         {
             InitializeComponent();
+
+            FormClosed += FrmClass_Closed;
+        }
+
+        private void FrmClass_Closed(object sender, FormClosedEventArgs e)
+        {
+            FrmMenu frmMenu = new FrmMenu();
+            frmMenu.Show();
         }
     }
 }
