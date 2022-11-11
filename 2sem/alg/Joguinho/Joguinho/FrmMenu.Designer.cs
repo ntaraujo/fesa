@@ -38,7 +38,7 @@ namespace Joguinho
             // 
             // btnJogar
             // 
-            this.btnJogar.Location = new System.Drawing.Point(457, 171);
+            this.btnJogar.Location = new System.Drawing.Point(322, 161);
             this.btnJogar.Name = "btnJogar";
             this.btnJogar.Size = new System.Drawing.Size(144, 39);
             this.btnJogar.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace Joguinho
             // 
             // btnClass
             // 
-            this.btnClass.Location = new System.Drawing.Point(487, 216);
+            this.btnClass.Location = new System.Drawing.Point(352, 206);
             this.btnClass.Name = "btnClass";
             this.btnClass.Size = new System.Drawing.Size(84, 23);
             this.btnClass.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace Joguinho
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(487, 245);
+            this.btnSair.Location = new System.Drawing.Point(352, 235);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(84, 23);
             this.btnSair.TabIndex = 2;
@@ -75,12 +75,12 @@ namespace Joguinho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Joguinho.Properties.Resources.proxy_image;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(784, 461);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnClass);
             this.Controls.Add(this.btnJogar);
             this.Name = "FrmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "METEOR";
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
