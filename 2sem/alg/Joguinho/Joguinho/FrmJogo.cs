@@ -19,7 +19,11 @@ namespace Joguinho
         private Random random = new Random();
         private List<int> systemSequence = new List<int>();
         private List<int> playerSequence = new List<int>();
-        private int round = 0;
+        private int round = 1;
+        private bool lost = false;
+        private int numSequence = 4;
+        private int points = 0;
+        private int indexcheck = 0;
 
 
         public FrmJogo()
@@ -56,7 +60,7 @@ namespace Joguinho
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (round == 0)
+            if (!lost)
             {
                 systemRound();
             }
@@ -64,15 +68,18 @@ namespace Joguinho
 
         private void systemRound()
         {
-            if (this.timeWaitInit < 500)
+            if(systemSequence.Count < numSequence)
             {
-                this.timeWaitInit += 100;
-                defaultColorize();
-            }
-            else
-            {
-                this.timeWaitInit = 0;
-                randomColorize();
+                if (this.timeWaitInit < 500)
+                {
+                    this.timeWaitInit += 100;
+                    defaultColorize();
+                }
+                else
+                {
+                    this.timeWaitInit = 0;
+                    randomColorize();
+                }
             }
         }
 
@@ -83,6 +90,7 @@ namespace Joguinho
             buttons[index].BackColor = colors[index];
 
             systemSequence.Add(index);
+            
         }
 
         private void defaultColorize()
@@ -96,6 +104,47 @@ namespace Joguinho
             {
                 round = 1;
             }
+        }
+        private void playerSequenceCheck()
+        {
+            if (playerSequence[indexcheck] == systemSequence[indexcheck])
+            {
+                points++;
+                indexcheck++;
+            }
+            else
+            {
+                frmYouLost frmYouLost = new frmYouLost();
+                frmYouLost.Show();
+                points = 0;
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            playerSequence.Add(0);
+            playerSequenceCheck();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            playerSequence.Add(1);
+            playerSequenceCheck();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            playerSequence.Add(2);
+            playerSequenceCheck();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            playerSequence.Add(3);
+            playerSequenceCheck();
         }
     }
 }

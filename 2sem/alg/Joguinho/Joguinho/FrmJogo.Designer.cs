@@ -46,6 +46,7 @@ namespace Joguinho
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -56,6 +57,7 @@ namespace Joguinho
             this.button2.TabIndex = 0;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -66,6 +68,7 @@ namespace Joguinho
             this.button3.TabIndex = 0;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -76,6 +79,7 @@ namespace Joguinho
             this.button4.TabIndex = 0;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // timer1
             // 
