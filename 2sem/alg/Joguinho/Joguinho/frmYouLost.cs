@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Joguinho
 {
     public partial class frmYouLost : Form
@@ -19,7 +20,12 @@ namespace Joguinho
 
         private void label1_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void frmYouLost_Closed(object sender, FormClosedEventArgs e)
+        {
+            Application.OpenForms["FrmJogo"].Show();
         }
     }
 }

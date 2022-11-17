@@ -21,8 +21,7 @@ namespace Joguinho
 
         private void FrmClass_Closed(object sender, FormClosedEventArgs e)
         {
-            FrmMenu frmMenu = new FrmMenu();
-            frmMenu.Show();
+            Application.OpenForms["FrmMenu"].Show();
         }
     }
 }

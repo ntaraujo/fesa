@@ -19,12 +19,10 @@ namespace Joguinho
         private Random random = new Random();
         private List<int> systemSequence = new List<int>();
         private List<int> playerSequence = new List<int>();
-        private int round = 1;
+        private int round = 0;
         private bool lost = false;
-        private int numSequence = 4;
-        private int points = 0;
+        private int numSequence = 2;
         private int indexcheck = 0;
-
 
         public FrmJogo()
         {
@@ -54,13 +52,12 @@ namespace Joguinho
 
         private void FrmJogo_Closed(object sender, FormClosedEventArgs e)
         {
-            FrmMenu frmMenu = new FrmMenu();
-            frmMenu.Show();
+            Application.OpenForms["FrmMenu"].Show();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (!lost)
+            if (round == 0)
             {
                 systemRound();
             }
@@ -68,18 +65,15 @@ namespace Joguinho
 
         private void systemRound()
         {
-            if(systemSequence.Count < numSequence)
+            if (this.timeWaitInit < 500)
             {
-                if (this.timeWaitInit < 500)
-                {
-                    this.timeWaitInit += 100;
-                    defaultColorize();
-                }
-                else
-                {
-                    this.timeWaitInit = 0;
-                    randomColorize();
-                }
+                this.timeWaitInit += 100;
+                defaultColorize();
+            }
+            else
+            {
+                this.timeWaitInit = 0;
+                randomColorize();
             }
         }
 
@@ -100,25 +94,35 @@ namespace Joguinho
                 buttons[i].BackColor = defaultColors[i];
             }
 
-            if (systemSequence.Count == 4)
+            if (systemSequence.Count == numSequence)
             {
                 round = 1;
             }
         }
         private void playerSequenceCheck()
         {
+
             if (playerSequence[indexcheck] == systemSequence[indexcheck])
             {
-                points++;
                 indexcheck++;
+                
             }
             else
             {
                 frmYouLost frmYouLost = new frmYouLost();
                 frmYouLost.Show();
-                points = 0;
+                lost = true;
+                this.Hide();
             }
 
+            if (playerSequence.Count == numSequence)
+            {
+                numSequence++;
+                round = 0;
+                indexcheck = 0;
+                systemSequence.Clear();
+                playerSequence.Clear();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
