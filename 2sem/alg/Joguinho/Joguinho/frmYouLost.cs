@@ -13,10 +13,11 @@ namespace Joguinho
 {
     public partial class frmYouLost : Form
     {
-        public frmYouLost()
+        public frmYouLost(int points, int rounds)
         {
             InitializeComponent();
             FormClosed += frmYouLost_Closed;
+            lblYouLostLoser.Text = $"cor errada huashausha\nvocê fez {points} pontos em {rounds} rounds";
         }
 
         private void label1_Click(object sender, EventArgs e)

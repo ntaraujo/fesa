@@ -95,7 +95,7 @@ namespace Joguinho
         {
             if (lost)
             {
-                new frmYouLost().Show();
+                new frmYouLost(points, numSequence - 1).Show();
             }
             else
             {
