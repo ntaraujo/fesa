@@ -23,6 +23,7 @@ namespace Joguinho
         private bool lost = false;
         private int numSequence = 2;
         private int indexcheck = 0;
+        private int points = 0;
 
         public FrmJogo()
         {
@@ -152,7 +153,8 @@ namespace Joguinho
             if (playerSequence[indexcheck] == systemSequence[indexcheck])
             {
                 indexcheck++;
-                
+                points += 10;
+                label1.Text = $"{points} - round: {numSequence - 1}";
             }
             else
             {
