@@ -38,7 +38,7 @@ namespace Joguinho
             this.ClientSize = new System.Drawing.Size(784, 461);
             this.Name = "FrmClass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmClass";
+            this.Text = "top 10 não daltônicos";
             this.ResumeLayout(false);
 
         }

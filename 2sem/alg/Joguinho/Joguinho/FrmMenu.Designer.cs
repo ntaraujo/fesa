@@ -81,7 +81,7 @@ namespace Joguinho
             this.Controls.Add(this.btnJogar);
             this.Name = "FrmMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "METEOR";
+            this.Text = "corezinhas piscanelas";
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
