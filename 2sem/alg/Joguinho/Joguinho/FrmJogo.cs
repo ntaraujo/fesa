@@ -29,9 +29,49 @@ namespace Joguinho
             InitializeComponent();
 
             FormClosed += FrmJogo_Closed;
-            
+            button1.MouseDown += new System.Windows.Forms.MouseEventHandler(button1_Down);
+            button1.MouseUp += new System.Windows.Forms.MouseEventHandler(button1_Up);
+            button2.MouseDown += new System.Windows.Forms.MouseEventHandler(button2_Down);
+            button2.MouseUp += new System.Windows.Forms.MouseEventHandler(button2_Up);
+            button3.MouseDown += new System.Windows.Forms.MouseEventHandler(button3_Down);
+            button3.MouseUp += new System.Windows.Forms.MouseEventHandler(button3_Up);
+            button4.MouseDown += new System.Windows.Forms.MouseEventHandler(button4_Down);
+            button4.MouseUp += new System.Windows.Forms.MouseEventHandler(button4_Up);
+
         }
 
+        private void button1_Down(object sender, EventArgs e)
+        {
+            buttons[0].BackColor = colors[0];
+        }
+        private void button1_Up(object sender, EventArgs e)
+        {
+            buttons[0].BackColor = defaultColors[0];
+        }
+        private void button2_Down(object sender, EventArgs e)
+        {
+            buttons[1].BackColor = colors[1];
+        }
+        private void button2_Up(object sender, EventArgs e)
+        {
+            buttons[1].BackColor = defaultColors[1];
+        }
+        private void button3_Down(object sender, EventArgs e)
+        {
+            buttons[2].BackColor = colors[2];
+        }
+        private void button3_Up(object sender, EventArgs e)
+        {
+            buttons[2].BackColor = defaultColors[2];
+        }
+        private void button4_Down(object sender, EventArgs e)
+        {
+            buttons[3].BackColor = colors[3];
+        }
+        private void button4_Up(object sender, EventArgs e)
+        {
+            buttons[3].BackColor = defaultColors[3];
+        }
         private void FrmJogo_Load(object sender, EventArgs e)
         {
             buttons[0] = button1;
