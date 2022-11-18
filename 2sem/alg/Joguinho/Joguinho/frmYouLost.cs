@@ -16,6 +16,7 @@ namespace Joguinho
         public frmYouLost()
         {
             InitializeComponent();
+            FormClosed += frmYouLost_Closed;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -25,7 +26,7 @@ namespace Joguinho
 
         private void frmYouLost_Closed(object sender, FormClosedEventArgs e)
         {
-            Application.OpenForms["FrmJogo"].Show();
+            new FrmJogo().Show();
         }
     }
 }

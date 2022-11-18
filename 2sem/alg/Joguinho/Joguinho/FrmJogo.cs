@@ -52,7 +52,14 @@ namespace Joguinho
 
         private void FrmJogo_Closed(object sender, FormClosedEventArgs e)
         {
-            Application.OpenForms["FrmMenu"].Show();
+            if (lost)
+            {
+                new frmYouLost().Show();
+            }
+            else
+            {
+                Application.OpenForms["FrmMenu"].Show();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -109,10 +116,8 @@ namespace Joguinho
             }
             else
             {
-                frmYouLost frmYouLost = new frmYouLost();
-                frmYouLost.Show();
                 lost = true;
-                this.Hide();
+                this.Close();
             }
 
             if (playerSequence.Count == numSequence)
