@@ -17,11 +17,9 @@ namespace Joguinho
             InitializeComponent();
 
             FormClosed += FrmClass_Closed;
-            orderingClassification ordering = new orderingClassification();
-            Dictionary<string, double> classDict = ordering.getDict();
 
             int i = 0;
-            foreach (KeyValuePair<string, double> entrada in classDict)
+            foreach (KeyValuePair<string, double> entrada in new orderingClassification().dict)
             {
                 i++;
                 listBox1.Items.Add($"{entrada.Key.Split(':')[1]} - {entrada.Value}");

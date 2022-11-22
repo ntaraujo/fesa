@@ -13,11 +13,10 @@ namespace Joguinho
         private string path = $"{System.IO.Path.GetDirectoryName(Application.ExecutablePath)}\\Classification.txt";
         public void savingPoints(string name, int points)
         {
-            orderingClassification ordering = new orderingClassification();
-            int length = ordering.getDict().Count();
+            int total = new orderingClassification().total();
             using (StreamWriter sw = File.AppendText(path))
             {
-                sw.WriteLine($"{length+1}:{name}-{points}");
+                sw.WriteLine($"{total+1}:{name}-{points}");
             }
         }
     }

@@ -13,30 +13,30 @@ namespace Joguinho
     {
         private string path = $"{System.IO.Path.GetDirectoryName(Application.ExecutablePath)}\\Classification.txt";
 
-        public Dictionary<string, double> getDict()
+        public Dictionary<string, double> dict;
+
+        public orderingClassification()
         {
             using (StreamWriter w = File.AppendText(path));
 
             string[] textfile = File.ReadAllText(path).Split('\n');
-            Dictionary<string, double> classDict = new Dictionary<string, double>();
+            dict = new Dictionary<string, double>();
 
             foreach (string line in textfile)
             {
                 string[] aux = line.Split('-');
                 if (aux.Length == 2)
                 {
-                    classDict.Add(aux[0], double.Parse(aux[1]));
+                    dict.Add(aux[0], double.Parse(aux[1]));
                 }
             }
 
-            classDict = classDict.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
-
-            foreach (KeyValuePair<string, double> item in classDict)
-            {
-                Console.WriteLine(" {0} {1} ", item.Key, item.Value);
-            }
-
-            return classDict;
+            dict = dict.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
         }
-}
+
+        public int total()
+        {
+            return dict.Count();
+        }
+    }
 }
