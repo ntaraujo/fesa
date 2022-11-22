@@ -4,17 +4,17 @@ using System.Windows.Forms;
 
 namespace Joguinho
 {
-    public partial class frmYouLost : Form
+    public partial class FrmYouLost : Form
     {
         private int points;
 
-        public frmYouLost(int points, int rounds)
+        public FrmYouLost(int points, int rounds)
         {
             InitializeComponent();
 
             FormClosed += frmYouLost_Closed;
-            txtName.KeyUp += txtName_KeyUp;
-            lblYouLostLoser.Text = $"cor errada huashausha\nvocê fez {points} pontos em {rounds} rounds";
+            txtNome.KeyUp += txtName_KeyUp;
+            lblYouLost.Text = $"cor errada huashausha\nvocê fez {points} pontos em {rounds} rounds";
             this.points = points;   
         }
 
@@ -27,7 +27,7 @@ namespace Joguinho
         {
             if (e.KeyCode == Keys.Enter)
             {
-                new SavingPoints(txtName.Text, points);
+                new SavingPoints(txtNome.Text, points);
                 e.Handled = true;
                 this.Close();
             }
@@ -35,7 +35,7 @@ namespace Joguinho
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            new SavingPoints(txtName.Text, points);
+            new SavingPoints(txtNome.Text, points);
             this.Close();
         }
     }

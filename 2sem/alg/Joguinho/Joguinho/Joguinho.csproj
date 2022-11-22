@@ -64,11 +64,11 @@
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmYouLost.cs">
+    <Compile Include="FrmYouLost.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmYouLost.Designer.cs">
-      <DependentUpon>frmYouLost.cs</DependentUpon>
+    <Compile Include="FrmYouLost.Designer.cs">
+      <DependentUpon>FrmYouLost.cs</DependentUpon>
     </Compile>
     <Compile Include="orderingClassification.cs" />
     <Compile Include="Program.cs" />
@@ -83,8 +83,8 @@
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmYouLost.resx">
-      <DependentUpon>frmYouLost.cs</DependentUpon>
+    <EmbeddedResource Include="FrmYouLost.resx">
+      <DependentUpon>FrmYouLost.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

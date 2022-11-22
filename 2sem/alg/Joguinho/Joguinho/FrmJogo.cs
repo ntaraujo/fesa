@@ -73,10 +73,10 @@ namespace Joguinho
 
         private void FrmJogo_Load(object sender, EventArgs e)
         {
-            buttons[0] = button1;
-            buttons[1] = button2;
-            buttons[2] = button3;
-            buttons[3] = button4;
+            buttons[0] = button0;
+            buttons[1] = button1;
+            buttons[2] = button2;
+            buttons[3] = button3;
 
             colors[0] = Color.Red;
             colors[1] = Color.Green;
@@ -93,7 +93,7 @@ namespace Joguinho
         {
             if (lost)
             {
-                new frmYouLost(points, numSequence - 1).Show();
+                new FrmYouLost(points, numSequence - 1).Show();
             }
             else
             {
@@ -152,7 +152,7 @@ namespace Joguinho
             {
                 indexcheck++;
                 points += 10;
-                label1.Text = $"{points} - round: {numSequence - 1}";
+                lblRound.Text = $"{points} - round: {numSequence - 1}";
             }
             else
             {

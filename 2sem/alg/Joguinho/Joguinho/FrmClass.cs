@@ -15,7 +15,7 @@ namespace Joguinho
             foreach (KeyValuePair<string, double> entrada in new orderingClassification().dict)
             {
                 i++;
-                listBox1.Items.Add($"{entrada.Key.Split(':')[1]} - {entrada.Value}");
+                boxTop10.Items.Add($"{entrada.Key.Split(':')[1]} - {entrada.Value}");
                 if (i == 10) break;
             }
         }
