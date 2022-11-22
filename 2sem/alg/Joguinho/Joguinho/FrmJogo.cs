@@ -30,49 +30,48 @@ namespace Joguinho
             InitializeComponent();
 
             FormClosed += FrmJogo_Closed;
-            button1.MouseDown += new System.Windows.Forms.MouseEventHandler(button1_Down);
-            button1.MouseUp += new System.Windows.Forms.MouseEventHandler(button1_Up);
-            button2.MouseDown += new System.Windows.Forms.MouseEventHandler(button2_Down);
-            button2.MouseUp += new System.Windows.Forms.MouseEventHandler(button2_Up);
-            button3.MouseDown += new System.Windows.Forms.MouseEventHandler(button3_Down);
-            button3.MouseUp += new System.Windows.Forms.MouseEventHandler(button3_Up);
-            button4.MouseDown += new System.Windows.Forms.MouseEventHandler(button4_Down);
-            button4.MouseUp += new System.Windows.Forms.MouseEventHandler(button4_Up);
+            foreach (var button in Controls.OfType<Button>())
+            {
+                button.MouseDown += button_Down;
+                button.MouseUp += button_Up;
+                button.Click += button_Click;
+            }
 
         }
 
-        private void button1_Down(object sender, EventArgs e)
+        private void button_Down(object sender, EventArgs e)
         {
-            buttons[0].BackColor = colors[0];
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                if (buttons[i] == (Button)sender)
+                {
+                    buttons[i].BackColor = colors[i];
+                }
+            }
         }
-        private void button1_Up(object sender, EventArgs e)
+        private void button_Up(object sender, EventArgs e)
         {
-            buttons[0].BackColor = defaultColors[0];
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                if (buttons[i] == (Button)sender)
+                {
+                    buttons[i].BackColor = defaultColors[i];
+                }
+            }
         }
-        private void button2_Down(object sender, EventArgs e)
+
+        private void button_Click(object sender, EventArgs e)
         {
-            buttons[1].BackColor = colors[1];
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                if (buttons[i] == (Button)sender)
+                {
+                    playerSequence.Add(i);
+                    playerSequenceCheck();
+                }
+            }
         }
-        private void button2_Up(object sender, EventArgs e)
-        {
-            buttons[1].BackColor = defaultColors[1];
-        }
-        private void button3_Down(object sender, EventArgs e)
-        {
-            buttons[2].BackColor = colors[2];
-        }
-        private void button3_Up(object sender, EventArgs e)
-        {
-            buttons[2].BackColor = defaultColors[2];
-        }
-        private void button4_Down(object sender, EventArgs e)
-        {
-            buttons[3].BackColor = colors[3];
-        }
-        private void button4_Up(object sender, EventArgs e)
-        {
-            buttons[3].BackColor = defaultColors[3];
-        }
+
         private void FrmJogo_Load(object sender, EventArgs e)
         {
             buttons[0] = button1;
@@ -170,32 +169,6 @@ namespace Joguinho
                 systemSequence.Clear();
                 playerSequence.Clear();
             }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            playerSequence.Add(0);
-            playerSequenceCheck();
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            playerSequence.Add(1);
-            playerSequenceCheck();
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            playerSequence.Add(2);
-            playerSequenceCheck();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            playerSequence.Add(3);
-            playerSequenceCheck();
         }
     }
 }
