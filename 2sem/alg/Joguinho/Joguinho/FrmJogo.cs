@@ -36,7 +36,6 @@ namespace Joguinho
                 button.MouseUp += button_Up;
                 button.Click += button_Click;
             }
-
         }
 
         private void button_Down(object sender, EventArgs e)

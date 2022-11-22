@@ -19,15 +19,14 @@ namespace Joguinho
 
         private void btnClass_Click(object sender, EventArgs e)
         {
-            new FrmClass().Show();
             this.Hide();
+            new FrmClass().Show();
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
         {
-            new FrmJogo().Show();
             this.Hide();
-            
+            new FrmJogo().Show();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
