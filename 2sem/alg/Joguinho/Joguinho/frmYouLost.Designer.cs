@@ -41,7 +41,6 @@
             this.lblYouLostLoser.Size = new System.Drawing.Size(116, 13);
             this.lblYouLostLoser.TabIndex = 0;
             this.lblYouLostLoser.Text = "cor errada huashausha";
-            this.lblYouLostLoser.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtName
             // 
