@@ -35,9 +35,9 @@ namespace Joguinho
             // boxTop10
             // 
             this.boxTop10.FormattingEnabled = true;
-            this.boxTop10.Location = new System.Drawing.Point(310, 79);
+            this.boxTop10.Location = new System.Drawing.Point(313, 133);
             this.boxTop10.Name = "boxTop10";
-            this.boxTop10.Size = new System.Drawing.Size(120, 277);
+            this.boxTop10.Size = new System.Drawing.Size(120, 160);
             this.boxTop10.TabIndex = 1;
             // 
             // FrmClass
