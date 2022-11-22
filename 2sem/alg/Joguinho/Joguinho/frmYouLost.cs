@@ -34,8 +34,7 @@ namespace Joguinho
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            SavingPoints savingPoints= new SavingPoints();
-           savingPoints.savingPoints(txtName.Text, points);
+            new SavingPoints(txtName.Text, points);
             this.Close();
         }
     }

@@ -11,7 +11,7 @@ namespace Joguinho
     internal class SavingPoints
     {
         private string path = $"{System.IO.Path.GetDirectoryName(Application.ExecutablePath)}\\Classification.txt";
-        public void savingPoints(string name, int points)
+        public SavingPoints(string name, double points)
         {
             int total = new orderingClassification().total();
             using (StreamWriter sw = File.AppendText(path))
