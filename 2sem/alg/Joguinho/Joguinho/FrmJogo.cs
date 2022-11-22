@@ -40,33 +40,42 @@ namespace Joguinho
 
         private void button_Down(object sender, EventArgs e)
         {
-            for (int i = 0; i < buttons.Length; i++)
+            if (round == 1)
             {
-                if (buttons[i] == (Button)sender)
+                for (int i = 0; i < buttons.Length; i++)
                 {
-                    buttons[i].BackColor = colors[i];
+                    if (buttons[i] == (Button)sender)
+                    {
+                        buttons[i].BackColor = colors[i];
+                    }
                 }
             }
         }
         private void button_Up(object sender, EventArgs e)
         {
-            for (int i = 0; i < buttons.Length; i++)
+            if (round == 1)
             {
-                if (buttons[i] == (Button)sender)
+                for (int i = 0; i < buttons.Length; i++)
                 {
-                    buttons[i].BackColor = defaultColors[i];
+                    if (buttons[i] == (Button)sender)
+                    {
+                        buttons[i].BackColor = defaultColors[i];
+                    }
                 }
             }
         }
 
         private void button_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < buttons.Length; i++)
+            if (round == 1)
             {
-                if (buttons[i] == (Button)sender)
+                for (int i = 0; i < buttons.Length; i++)
                 {
-                    playerSequence.Add(i);
-                    playerSequenceCheck();
+                    if (buttons[i] == (Button)sender)
+                    {
+                        playerSequence.Add(i);
+                        playerSequenceCheck();
+                    }
                 }
             }
         }
