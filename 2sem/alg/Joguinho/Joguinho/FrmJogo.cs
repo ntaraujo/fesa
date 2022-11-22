@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Joguinho
 {
     public partial class FrmJogo : Form
     {
+        private bool lost = false;
+
         private int timeWaitInit = 0;
+        private int indexcheck = 0;
+        private int points = 0;
+        private int round = 0;
+        private int numSequence = 2;
+
         private Button[] buttons = new Button[4];
         private Color[] colors = new Color[4];
         private Color[] defaultColors = new Color[4];
+
         private Random random = new Random();
+
         private List<int> systemSequence = new List<int>();
         private List<int> playerSequence = new List<int>();
-        private int round = 0;
-        private bool lost = false;
-        private int numSequence = 2;
-        private int indexcheck = 0;
-        private int points = 0;
 
         public FrmJogo()
         {

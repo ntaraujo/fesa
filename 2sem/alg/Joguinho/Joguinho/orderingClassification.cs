@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
 
@@ -11,13 +8,13 @@ namespace Joguinho
 {
     internal class orderingClassification
     {
-        private string path = $"{System.IO.Path.GetDirectoryName(Application.ExecutablePath)}\\Classification.txt";
+        private string path = $"{Path.GetDirectoryName(Application.ExecutablePath)}\\Classification.txt";
 
         public Dictionary<string, double> dict;
 
         public orderingClassification()
         {
-            using (StreamWriter w = File.AppendText(path));
+            using (StreamWriter w = File.AppendText(path)) { };
 
             string[] textfile = File.ReadAllText(path).Split('\n');
             dict = new Dictionary<string, double>();

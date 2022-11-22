@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -14,9 +7,11 @@ namespace Joguinho
     public partial class frmYouLost : Form
     {
         private int points;
+
         public frmYouLost(int points, int rounds)
         {
             InitializeComponent();
+
             FormClosed += frmYouLost_Closed;
             txtName.KeyUp += txtName_KeyUp;
             lblYouLostLoser.Text = $"cor errada huashausha\nvocê fez {points} pontos em {rounds} rounds";
