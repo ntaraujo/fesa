@@ -31,3 +31,19 @@ FROM
     ON (pc.codpedido = i.codpedido)
 GROUP BY
 	pc.codpedido, pc.nome
+
+-- 2 v2
+SELECT
+	p.codpedido,
+	c.nome,
+	count(i.numeroitem) AS qtd
+FROM
+			EX2_PEDIDO p
+		INNER JOIN
+			EX2_CLIENTE c
+		ON (p.codcliente = c.codcliente)
+	INNER JOIN
+		EX2_ITEMPEDIDO i
+    ON (p.codpedido = i.codpedido)
+GROUP BY
+	p.codpedido, c.nome
