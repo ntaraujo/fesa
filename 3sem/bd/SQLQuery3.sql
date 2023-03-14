@@ -18,3 +18,20 @@ end
 
 exec SP_exemplo2 -1
 
+create or alter procedure SP_insere_setores (@setor_id int, @setor_nome varchar(50))
+as begin
+	set nocount on
+
+	insert into setores values (@setor_id, @setor_nome)
+
+	set nocount off
+
+	if @@ERROR != 0 begin
+		print 'erro na inclusão de dados'
+		return -1
+	end
+	else
+		return 0
+end
+
+
