@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_10
+namespace Exercise_10
 {
     internal class ContaCorrente
     {
@@ -14,11 +14,11 @@ namespace Exercício_10
         public string NameTitular { get; set; }
         public double Saldo { get; set; }
 
-        public ContaCorrente(int agencia, string numeroConta, string nomeTitular)
+        public ContaCorrente(int agencia, string numeroConta, string nameTitular)
         {
             Agencia = agencia;
             NumeroConta = numeroConta;
-            NameTitular = nomeTitular;
+            NameTitular = nameTitular;
             Saldo = 0;
         }
 

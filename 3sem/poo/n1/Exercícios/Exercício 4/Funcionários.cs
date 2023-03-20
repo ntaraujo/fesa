@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_4
+namespace Exercise_4
 {
-    internal class Funcionários
+    internal class Workers
     {
         private int id;
-        private string nome;
+        private string name;
         private string rg;
-        private double salario;
+        private double salary;
 
         public int Id
         {
@@ -29,16 +29,16 @@ namespace Exercício_4
         }
         public string Name
         {
-            get { return nome; }
+            get { return name; }
             set
             {
-                if (!string.IsNullOrEmpty(nome))
+                if (!string.IsNullOrEmpty(name))
                 {
-                    nome = value;
+                    name = value;
                 }
                 else
                 {
-                    throw new Exception("Preencha um nome");
+                    throw new Exception("Fill a name");
                 }
             }
         }
@@ -53,22 +53,22 @@ namespace Exercício_4
                 }
                 else
                 {
-                    throw new Exception("Preencha um nome");
+                    throw new Exception("Fill a name");
                 }
             }
         }
-        public double Salario
+        public double Salary
         {
-            get { return salario; }
+            get { return salary; }
             set 
             {
-                if (salario >= 0)
+                if (salary >= 0)
                 {
-                    salario = value;
+                    salary = value;
                 }
                 else
                 {
-                    throw new Exception("Salário deve ser positivo ou 0");
+                    throw new Exception("Salary must be positive or 0");
                 }
             }
         }
@@ -76,11 +76,11 @@ namespace Exercício_4
 
         public double Inss
         {
-            get { return salario * 0.11; }
+            get { return salary * 0.11; }
         }
-        public double calcularSalario
+        public double calculateSalary
         {
-            get{ return (salario - Inss); }
+            get{ return (salary - Inss); }
         }
     }
 }

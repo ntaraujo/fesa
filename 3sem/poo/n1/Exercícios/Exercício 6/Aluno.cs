@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_6
+namespace Exercise_6
 {
     internal class Aluno
     {
-        private string nome;
+        private string name;
         private double nota1;
         private double nota2;
 
         public string Name
         {
-            get { return nome; }
+            get { return name; }
             set
             {
                 if (value.Trim().Split().Length < 2)
                 {
-                    throw new ArgumentException("O nome deve conter nome e sobrenome.");
+                    throw new ArgumentException("O name deve conter name e sobrename.");
                 }
-                nome = value;
+                name = value;
             }
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Exercício_9
+﻿namespace Exercise_9
 {
     partial class Form1
     {
@@ -28,62 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblExibir = new System.Windows.Forms.Label();
-            this.btnExibir = new System.Windows.Forms.Button();
-            this.btnSalário = new System.Windows.Forms.Button();
-            this.btnRG = new System.Windows.Forms.Button();
+            this.lblShow = new System.Windows.Forms.Label();
+            this.btnShow = new System.Windows.Forms.Button();
+            this.btnSalary = new System.Windows.Forms.Button();
+            this.btnRg = new System.Windows.Forms.Button();
             this.btnName = new System.Windows.Forms.Button();
-            this.btnCódigo = new System.Windows.Forms.Button();
-            this.lblSalario = new System.Windows.Forms.Label();
-            this.lblRG = new System.Windows.Forms.Label();
+            this.btnCode = new System.Windows.Forms.Button();
+            this.lblSalary = new System.Windows.Forms.Label();
+            this.lblRg = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
-            this.txtSalario = new System.Windows.Forms.TextBox();
-            this.txtRG = new System.Windows.Forms.TextBox();
+            this.lblCode = new System.Windows.Forms.Label();
+            this.txtSalary = new System.Windows.Forms.TextBox();
+            this.txtRg = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.txtCode = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblExibir
+            // lblShow
             // 
-            this.lblExibir.AutoSize = true;
-            this.lblExibir.Location = new System.Drawing.Point(103, 225);
-            this.lblExibir.Name = "lblExibir";
-            this.lblExibir.Size = new System.Drawing.Size(0, 16);
-            this.lblExibir.TabIndex = 27;
+            this.lblShow.AutoSize = true;
+            this.lblShow.Location = new System.Drawing.Point(103, 225);
+            this.lblShow.Name = "lblShow";
+            this.lblShow.Size = new System.Drawing.Size(0, 16);
+            this.lblShow.TabIndex = 27;
             // 
-            // btnExibir
+            // btnShow
             // 
-            this.btnExibir.Enabled = false;
-            this.btnExibir.Location = new System.Drawing.Point(106, 180);
-            this.btnExibir.Name = "btnExibir";
-            this.btnExibir.Size = new System.Drawing.Size(98, 23);
-            this.btnExibir.TabIndex = 26;
-            this.btnExibir.Text = "Adicionar";
-            this.btnExibir.UseVisualStyleBackColor = true;
-            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
+            this.btnShow.Enabled = false;
+            this.btnShow.Location = new System.Drawing.Point(106, 180);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(98, 23);
+            this.btnShow.TabIndex = 26;
+            this.btnShow.Text = "Add";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
-            // btnSalário
+            // btnSalary
             // 
-            this.btnSalário.Enabled = false;
-            this.btnSalário.Location = new System.Drawing.Point(227, 135);
-            this.btnSalário.Name = "btnSalário";
-            this.btnSalário.Size = new System.Drawing.Size(98, 23);
-            this.btnSalário.TabIndex = 25;
-            this.btnSalário.Text = "Avançar";
-            this.btnSalário.UseVisualStyleBackColor = true;
-            this.btnSalário.Click += new System.EventHandler(this.btnSalário_Click);
+            this.btnSalary.Enabled = false;
+            this.btnSalary.Location = new System.Drawing.Point(227, 135);
+            this.btnSalary.Name = "btnSalary";
+            this.btnSalary.Size = new System.Drawing.Size(98, 23);
+            this.btnSalary.TabIndex = 25;
+            this.btnSalary.Text = "Go foward";
+            this.btnSalary.UseVisualStyleBackColor = true;
+            this.btnSalary.Click += new System.EventHandler(this.btnSalary_Click);
             // 
-            // btnRG
+            // btnRg
             // 
-            this.btnRG.Enabled = false;
-            this.btnRG.Location = new System.Drawing.Point(227, 107);
-            this.btnRG.Name = "btnRG";
-            this.btnRG.Size = new System.Drawing.Size(98, 23);
-            this.btnRG.TabIndex = 24;
-            this.btnRG.Text = "Avançar";
-            this.btnRG.UseVisualStyleBackColor = true;
-            this.btnRG.Click += new System.EventHandler(this.btnRG_Click);
+            this.btnRg.Enabled = false;
+            this.btnRg.Location = new System.Drawing.Point(227, 107);
+            this.btnRg.Name = "btnRg";
+            this.btnRg.Size = new System.Drawing.Size(98, 23);
+            this.btnRg.TabIndex = 24;
+            this.btnRg.Text = "Go foward";
+            this.btnRg.UseVisualStyleBackColor = true;
+            this.btnRg.Click += new System.EventHandler(this.btnRg_Click);
             // 
             // btnName
             // 
@@ -92,37 +92,37 @@
             this.btnName.Name = "btnName";
             this.btnName.Size = new System.Drawing.Size(98, 23);
             this.btnName.TabIndex = 23;
-            this.btnName.Text = "Avançar";
+            this.btnName.Text = "Go foward";
             this.btnName.UseVisualStyleBackColor = true;
             this.btnName.Click += new System.EventHandler(this.btnName_Click);
             // 
-            // btnCódigo
+            // btnCode
             // 
-            this.btnCódigo.Location = new System.Drawing.Point(227, 47);
-            this.btnCódigo.Name = "btnCódigo";
-            this.btnCódigo.Size = new System.Drawing.Size(98, 23);
-            this.btnCódigo.TabIndex = 22;
-            this.btnCódigo.Text = "Avançar";
-            this.btnCódigo.UseVisualStyleBackColor = true;
-            this.btnCódigo.Click += new System.EventHandler(this.btnCódigo_Click);
+            this.btnCode.Location = new System.Drawing.Point(227, 47);
+            this.btnCode.Name = "btnCode";
+            this.btnCode.Size = new System.Drawing.Size(98, 23);
+            this.btnCode.TabIndex = 22;
+            this.btnCode.Text = "Go foward";
+            this.btnCode.UseVisualStyleBackColor = true;
+            this.btnCode.Click += new System.EventHandler(this.btnCode_Click);
             // 
-            // lblSalario
+            // lblSalary
             // 
-            this.lblSalario.AutoSize = true;
-            this.lblSalario.Location = new System.Drawing.Point(43, 138);
-            this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(53, 16);
-            this.lblSalario.TabIndex = 21;
-            this.lblSalario.Text = "Salário:";
+            this.lblSalary.AutoSize = true;
+            this.lblSalary.Location = new System.Drawing.Point(43, 138);
+            this.lblSalary.Name = "lblSalary";
+            this.lblSalary.Size = new System.Drawing.Size(53, 16);
+            this.lblSalary.TabIndex = 21;
+            this.lblSalary.Text = "Salary:";
             // 
-            // lblRG
+            // lblRg
             // 
-            this.lblRG.AutoSize = true;
-            this.lblRG.Location = new System.Drawing.Point(43, 110);
-            this.lblRG.Name = "lblRG";
-            this.lblRG.Size = new System.Drawing.Size(30, 16);
-            this.lblRG.TabIndex = 20;
-            this.lblRG.Text = "RG:";
+            this.lblRg.AutoSize = true;
+            this.lblRg.Location = new System.Drawing.Point(43, 110);
+            this.lblRg.Name = "lblRg";
+            this.lblRg.Size = new System.Drawing.Size(30, 16);
+            this.lblRg.TabIndex = 20;
+            this.lblRg.Text = "Rg:";
             // 
             // lblName
             // 
@@ -133,28 +133,28 @@
             this.lblName.TabIndex = 19;
             this.lblName.Text = "Name:";
             // 
-            // lblCodigo
+            // lblCode
             // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(43, 51);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(54, 16);
-            this.lblCodigo.TabIndex = 18;
-            this.lblCodigo.Text = "Código:";
+            this.lblCode.AutoSize = true;
+            this.lblCode.Location = new System.Drawing.Point(43, 51);
+            this.lblCode.Name = "lblCode";
+            this.lblCode.Size = new System.Drawing.Size(54, 16);
+            this.lblCode.TabIndex = 18;
+            this.lblCode.Text = "Code:";
             // 
-            // txtSalario
+            // txtSalary
             // 
-            this.txtSalario.Location = new System.Drawing.Point(104, 132);
-            this.txtSalario.Name = "txtSalario";
-            this.txtSalario.Size = new System.Drawing.Size(100, 22);
-            this.txtSalario.TabIndex = 17;
+            this.txtSalary.Location = new System.Drawing.Point(104, 132);
+            this.txtSalary.Name = "txtSalary";
+            this.txtSalary.Size = new System.Drawing.Size(100, 22);
+            this.txtSalary.TabIndex = 17;
             // 
-            // txtRG
+            // txtRg
             // 
-            this.txtRG.Location = new System.Drawing.Point(104, 104);
-            this.txtRG.Name = "txtRG";
-            this.txtRG.Size = new System.Drawing.Size(100, 22);
-            this.txtRG.TabIndex = 16;
+            this.txtRg.Location = new System.Drawing.Point(104, 104);
+            this.txtRg.Name = "txtRg";
+            this.txtRg.Size = new System.Drawing.Size(100, 22);
+            this.txtRg.TabIndex = 16;
             // 
             // txtName
             // 
@@ -163,32 +163,32 @@
             this.txtName.Size = new System.Drawing.Size(100, 22);
             this.txtName.TabIndex = 15;
             // 
-            // txtCodigo
+            // txtCode
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(104, 48);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(100, 22);
-            this.txtCodigo.TabIndex = 14;
+            this.txtCode.Location = new System.Drawing.Point(104, 48);
+            this.txtCode.Name = "txtCode";
+            this.txtCode.Size = new System.Drawing.Size(100, 22);
+            this.txtCode.TabIndex = 14;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblExibir);
-            this.Controls.Add(this.btnExibir);
-            this.Controls.Add(this.btnSalário);
-            this.Controls.Add(this.btnRG);
+            this.Controls.Add(this.lblShow);
+            this.Controls.Add(this.btnShow);
+            this.Controls.Add(this.btnSalary);
+            this.Controls.Add(this.btnRg);
             this.Controls.Add(this.btnName);
-            this.Controls.Add(this.btnCódigo);
-            this.Controls.Add(this.lblSalario);
-            this.Controls.Add(this.lblRG);
+            this.Controls.Add(this.btnCode);
+            this.Controls.Add(this.lblSalary);
+            this.Controls.Add(this.lblRg);
             this.Controls.Add(this.lblName);
-            this.Controls.Add(this.lblCodigo);
-            this.Controls.Add(this.txtSalario);
-            this.Controls.Add(this.txtRG);
+            this.Controls.Add(this.lblCode);
+            this.Controls.Add(this.txtSalary);
+            this.Controls.Add(this.txtRg);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.txtCodigo);
+            this.Controls.Add(this.txtCode);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -198,20 +198,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblExibir;
-        private System.Windows.Forms.Button btnExibir;
-        private System.Windows.Forms.Button btnSalário;
-        private System.Windows.Forms.Button btnRG;
+        private System.Windows.Forms.Label lblShow;
+        private System.Windows.Forms.Button btnShow;
+        private System.Windows.Forms.Button btnSalary;
+        private System.Windows.Forms.Button btnRg;
         private System.Windows.Forms.Button btnName;
-        private System.Windows.Forms.Button btnCódigo;
-        private System.Windows.Forms.Label lblSalario;
-        private System.Windows.Forms.Label lblRG;
+        private System.Windows.Forms.Button btnCode;
+        private System.Windows.Forms.Label lblSalary;
+        private System.Windows.Forms.Label lblRg;
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblCodigo;
-        private System.Windows.Forms.TextBox txtSalario;
-        private System.Windows.Forms.TextBox txtRG;
+        private System.Windows.Forms.Label lblCode;
+        private System.Windows.Forms.TextBox txtSalary;
+        private System.Windows.Forms.TextBox txtRg;
         private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.TextBox txtCode;
     }
 }
 

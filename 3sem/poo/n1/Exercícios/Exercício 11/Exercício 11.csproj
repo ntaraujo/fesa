@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0D31B928-5215-4977-90B1-C0C6223F1F3B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exercício_11</RootNamespace>
-    <AssemblyName>Exercício 11</AssemblyName>
+    <RootNamespace>Exercise_11</RootNamespace>
+    <AssemblyName>Exercise 11</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

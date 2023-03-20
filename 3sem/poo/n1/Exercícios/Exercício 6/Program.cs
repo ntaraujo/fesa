@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_6
+namespace Exercise_6
 {
     internal class Program
     {
@@ -19,7 +19,7 @@ namespace Exercício_6
                 {
                     try
                     {
-                        Console.WriteLine("Digite o nome do aluno: ");
+                        Console.WriteLine("Digite o name do aluno: ");
                         aluno.Name = Console.ReadLine();
                         break;
                     }
@@ -58,7 +58,7 @@ namespace Exercício_6
                 }
                 while (true);
 
-                Console.WriteLine("Exibir média? S/N");
+                Console.WriteLine("Show média? S/N");
                 if (Console.ReadLine().ToUpper() != "N")
                 {
                     Console.WriteLine(aluno.Media);

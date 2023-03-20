@@ -5,25 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercício3
+namespace Exercise3
 {
-    internal class Funcionários
+    internal class Workers
     {
         private int id;
-        private string nome;
+        private string name;
         private string rg;
-        private double salario;
+        private double salary;
 
         public int getId() => id;
-        public string GetName() => nome;
+        public string GetName() => name;
         public string getRg() => rg;
-        public double getSalário() => salario;
+        public double getSalary() => salary;
 
         public void setId(int id)
         {
             if (id <= 0)
             {
-                throw new Exception("O id não pode ser menor ou igual a zero");
+                throw new Exception("The id can't be less or equal zero");
             }
             else
             {
@@ -31,15 +31,15 @@ namespace Exercício3
             }
 
         }
-        public void SetName(string nome)
+        public void SetName(string name)
         {
-            if (!string.IsNullOrEmpty(nome)) 
+            if (!string.IsNullOrEmpty(name)) 
             {
-                this.nome = nome;
+                this.name = name;
             }
             else 
             {
-                throw new Exception("Preencha um nome");
+                throw new Exception("Fill a name");
             }
         }
         public void setRg(string rg)
@@ -50,28 +50,28 @@ namespace Exercício3
             }
             else
             {
-                throw new Exception("Preencha um nome");
+                throw new Exception("Fill a name");
             }
         }
-        public void setSalario(double salario)
+        public void setSalary(double salary)
         {
-            if (salario >= 0)
+            if (salary >= 0)
             {
-                this.salario = salario;
+                this.salary = salary;
             }
             else
             {
-                throw new Exception("Salário deve ser positivo ou 0");
+                throw new Exception("Salary must be positive or 0");
             }
         }
 
-        public double getInss(double salario)
+        public double getInss(double salary)
         {
-            return salario * 0.11;
+            return salary * 0.11;
         }
-        public double calcularSalario(double salario)
+        public double calculateSalary(double salary)
         {
-            return (salario - getInss(salario));
+            return (salary - getInss(salary));
         }
 
     }

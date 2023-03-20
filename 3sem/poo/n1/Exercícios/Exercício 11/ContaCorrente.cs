@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_11
+namespace Exercise_11
 {
     internal class ContaCorrente
     {

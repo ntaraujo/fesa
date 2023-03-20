@@ -1,11 +1,11 @@
-﻿using Exercício5;
+﻿using Exercise5;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_5
+namespace Exercise_5
 {
     internal class Program
     {
@@ -16,7 +16,7 @@ namespace Exercício_5
             {
                 try
                 {
-                    Console.WriteLine("Digite o nome do aluno: ");
+                    Console.WriteLine("Digite o name do aluno: ");
                     aluno.Name = Console.ReadLine();
                     break;
                 }
@@ -55,7 +55,7 @@ namespace Exercício_5
             }
             while(true);
 
-            Console.WriteLine("Exibir média? S/N");
+            Console.WriteLine("Show média? S/N");
             if (Console.ReadLine().ToUpper() == "Y")
             {
                 Console.WriteLine(aluno.Media);

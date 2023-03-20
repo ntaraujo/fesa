@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercício_9
+namespace Exercise_9
 {
     internal static class Program
     {

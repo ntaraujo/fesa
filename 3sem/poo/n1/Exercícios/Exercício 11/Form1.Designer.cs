@@ -1,4 +1,4 @@
-﻿namespace Exercício_11
+﻿namespace Exercise_11
 {
     partial class Form1
     {

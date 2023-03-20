@@ -5,37 +5,37 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_1
+namespace Exercise_1
 {
     class Game
     {
-        private int código;
-        private string nome;
+        private int code;
+        private string name;
         private string categoria;
         private DateTime data_de_lançamento;
 
-        public int GetCode() => código;
-        public void SetCode(int código)
+        public int GetCode() => code;
+        public void SetCode(int code)
         {
-            if (código <= 0)
+            if (code <= 0)
             {
-                throw new Exception("Código não pode ser menor que 0 (zero)");
+                throw new Exception("Code não pode ser menor que 0 (zero)");
             }
             else
             {
-                this.código = código;
+                this.code = code;
             }
         }
-        public string GetName() => nome;
-        public void SetName(string nome) 
+        public string GetName() => name;
+        public void SetName(string name) 
         {
-            if (string.IsNullOrEmpty(nome))
+            if (string.IsNullOrEmpty(name))
             {
                 throw new Exception("Name não pode estar vazio");
             }
             else
             {
-                this.nome = nome;
+                this.name = name;
             }
         }
         public string GetCategory() => categoria;
