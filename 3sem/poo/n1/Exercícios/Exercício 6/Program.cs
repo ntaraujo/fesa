@@ -20,7 +20,7 @@ namespace Exercício_6
                     try
                     {
                         Console.WriteLine("Digite o nome do aluno: ");
-                        aluno.Nome = Console.ReadLine();
+                        aluno.Name = Console.ReadLine();
                         break;
                     }
                     catch (Exception ex)
@@ -72,7 +72,7 @@ namespace Exercício_6
             }
             for( int i = 0; i < alunos.Count; i++ )
             {
-                Console.WriteLine($"Nome: {0}\nN1: {1}\nN2: {2}\nMédia:{3}", alunos[i].Nome, alunos[i].Nota1, alunos[i].Nota2, alunos[i].Media );
+                Console.WriteLine($"Name: {0}\nN1: {1}\nN2: {2}\nMédia:{3}", alunos[i].Name, alunos[i].Nota1, alunos[i].Nota2, alunos[i].Media );
             }
             Console.ReadKey();
         }

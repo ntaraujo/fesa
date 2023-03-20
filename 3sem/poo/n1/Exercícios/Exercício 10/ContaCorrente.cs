@@ -11,14 +11,14 @@ namespace Exercício_10
 
         public int Agencia { get; set; }
         public string NumeroConta { get; set; }
-        public string NomeTitular { get; set; }
+        public string NameTitular { get; set; }
         public double Saldo { get; set; }
 
         public ContaCorrente(int agencia, string numeroConta, string nomeTitular)
         {
             Agencia = agencia;
             NumeroConta = numeroConta;
-            NomeTitular = nomeTitular;
+            NameTitular = nomeTitular;
             Saldo = 0;
         }
 

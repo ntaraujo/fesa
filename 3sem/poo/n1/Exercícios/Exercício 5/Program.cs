@@ -17,7 +17,7 @@ namespace Exercício_5
                 try
                 {
                     Console.WriteLine("Digite o nome do aluno: ");
-                    aluno.Nome = Console.ReadLine();
+                    aluno.Name = Console.ReadLine();
                     break;
                 }
                 catch (Exception ex)
@@ -56,7 +56,7 @@ namespace Exercício_5
             while(true);
 
             Console.WriteLine("Exibir média? S/N");
-            if (Console.ReadLine().ToUpper() == "S")
+            if (Console.ReadLine().ToUpper() == "Y")
             {
                 Console.WriteLine(aluno.Media);
             }

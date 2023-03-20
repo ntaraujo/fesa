@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercício2
 {
-    class Jogo
+    class Game
     {
         private int código;
         private string nome;
@@ -14,8 +14,8 @@ namespace Exercício2
         private DateTime data_de_lançamento;
         List<string> categorias = new List<string>() { "ação", "luta", "tiro", "esportes" };
 
-        public int GetCódigo() => código;
-        public void SetCódigo(int código)
+        public int GetCode() => código;
+        public void SetCode(int código)
         {
             if (código <= 0)
             {
@@ -26,20 +26,20 @@ namespace Exercício2
                 this.código = código;
             }
         }
-        public string GetNome() => nome;
-        public void SetNome(string nome)
+        public string GetName() => nome;
+        public void SetName(string nome)
         {
             if (string.IsNullOrEmpty(nome))
             {
-                throw new Exception("Nome não pode estar vazio");
+                throw new Exception("Name não pode estar vazio");
             }
             else
             {
                 this.nome = nome;
             }
         }
-        public string GetCategoria() => categoria;
-        public void SetCategoria(string categoria)
+        public string GetCategory() => categoria;
+        public void SetCategory(string categoria)
         {
             categoria = categoria.ToLower();
             if (!categorias.Contains(categoria))
@@ -51,8 +51,8 @@ namespace Exercício2
                 this.categoria = categoria;
             }
         }
-        public DateTime GetData_de_lançamento() => data_de_lançamento;
-        public void SetData_de_lançamento(DateTime data)
+        public DateTime GetReleaseDate() => data_de_lançamento;
+        public void SetReleaseDate(DateTime data)
         {
             if(data <= DateTime.Now) 
             {

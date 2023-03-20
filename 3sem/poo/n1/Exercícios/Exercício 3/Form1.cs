@@ -22,24 +22,24 @@ namespace Exercício3
             try
             {
                 f.setId(Convert.ToInt32(txtCodigo.Text));
-                btnNome.Enabled = true;
+                btnName.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
             
         }
-        private void btnNome_Click(object sender, EventArgs e)
+        private void btnName_Click(object sender, EventArgs e)
         {
             try
             {
-                f.setNome(txtNome.Text);
+                f.SetName(txtName.Text);
                 btnRG.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
             
         }
@@ -51,9 +51,9 @@ namespace Exercício3
                 f.setRg(txtRG.Text);
                 btnSalário.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
             
         }
@@ -64,9 +64,9 @@ namespace Exercício3
                 f.setSalario(Convert.ToDouble(txtSalario.Text));
                 btnExibir.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
         }
 
@@ -85,7 +85,7 @@ namespace Exercício3
 
         }
 
-        private void lblNome_Click(object sender, EventArgs e)
+        private void lblName_Click(object sender, EventArgs e)
         {
 
         }
@@ -105,7 +105,7 @@ namespace Exercício3
 
         }
 
-        private void txtNome_TextChanged(object sender, EventArgs e)
+        private void txtName_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -119,11 +119,11 @@ namespace Exercício3
         {
             funcionarios.Add(f);
             lblExibir.Text += "ID: " + funcionarios[i].getId() + "\n" +
-            "NOME: " + funcionarios[i].getNome() + "\n" +
+            "NOME: " + funcionarios[i].GetName() + "\n" +
             "RG: " + funcionarios[i].getRg() + "\n" +
             "Salário: " + funcionarios[i].getSalário() + "\n";
             i++;
-            btnNome.Enabled = false;
+            btnName.Enabled = false;
             btnRG.Enabled = false;
             btnSalário.Enabled = false;
             btnExibir.Enabled = false;

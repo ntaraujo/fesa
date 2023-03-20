@@ -15,7 +15,7 @@ namespace Exercício3
         private double salario;
 
         public int getId() => id;
-        public string getNome() => nome;
+        public string GetName() => nome;
         public string getRg() => rg;
         public double getSalário() => salario;
 
@@ -31,7 +31,7 @@ namespace Exercício3
             }
 
         }
-        public void setNome(string nome)
+        public void SetName(string nome)
         {
             if (!string.IsNullOrEmpty(nome)) 
             {

@@ -32,15 +32,15 @@
             this.btnExibir = new System.Windows.Forms.Button();
             this.btnSalário = new System.Windows.Forms.Button();
             this.btnRG = new System.Windows.Forms.Button();
-            this.btnNome = new System.Windows.Forms.Button();
+            this.btnName = new System.Windows.Forms.Button();
             this.btnCódigo = new System.Windows.Forms.Button();
             this.lblSalario = new System.Windows.Forms.Label();
             this.lblRG = new System.Windows.Forms.Label();
-            this.lblNome = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.txtRG = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -85,16 +85,16 @@
             this.btnRG.UseVisualStyleBackColor = true;
             this.btnRG.Click += new System.EventHandler(this.btnRG_Click);
             // 
-            // btnNome
+            // btnName
             // 
-            this.btnNome.Enabled = false;
-            this.btnNome.Location = new System.Drawing.Point(227, 79);
-            this.btnNome.Name = "btnNome";
-            this.btnNome.Size = new System.Drawing.Size(98, 23);
-            this.btnNome.TabIndex = 23;
-            this.btnNome.Text = "Avançar";
-            this.btnNome.UseVisualStyleBackColor = true;
-            this.btnNome.Click += new System.EventHandler(this.btnNome_Click);
+            this.btnName.Enabled = false;
+            this.btnName.Location = new System.Drawing.Point(227, 79);
+            this.btnName.Name = "btnName";
+            this.btnName.Size = new System.Drawing.Size(98, 23);
+            this.btnName.TabIndex = 23;
+            this.btnName.Text = "Avançar";
+            this.btnName.UseVisualStyleBackColor = true;
+            this.btnName.Click += new System.EventHandler(this.btnName_Click);
             // 
             // btnCódigo
             // 
@@ -124,14 +124,14 @@
             this.lblRG.TabIndex = 20;
             this.lblRG.Text = "RG:";
             // 
-            // lblNome
+            // lblName
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(43, 82);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(47, 16);
-            this.lblNome.TabIndex = 19;
-            this.lblNome.Text = "Nome:";
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(43, 82);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(47, 16);
+            this.lblName.TabIndex = 19;
+            this.lblName.Text = "Name:";
             // 
             // lblCodigo
             // 
@@ -156,12 +156,12 @@
             this.txtRG.Size = new System.Drawing.Size(100, 22);
             this.txtRG.TabIndex = 16;
             // 
-            // txtNome
+            // txtName
             // 
-            this.txtNome.Location = new System.Drawing.Point(104, 76);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 22);
-            this.txtNome.TabIndex = 15;
+            this.txtName.Location = new System.Drawing.Point(104, 76);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(100, 22);
+            this.txtName.TabIndex = 15;
             // 
             // txtCodigo
             // 
@@ -179,15 +179,15 @@
             this.Controls.Add(this.btnExibir);
             this.Controls.Add(this.btnSalário);
             this.Controls.Add(this.btnRG);
-            this.Controls.Add(this.btnNome);
+            this.Controls.Add(this.btnName);
             this.Controls.Add(this.btnCódigo);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.lblRG);
-            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.txtSalario);
             this.Controls.Add(this.txtRG);
-            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtCodigo);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -202,15 +202,15 @@
         private System.Windows.Forms.Button btnExibir;
         private System.Windows.Forms.Button btnSalário;
         private System.Windows.Forms.Button btnRG;
-        private System.Windows.Forms.Button btnNome;
+        private System.Windows.Forms.Button btnName;
         private System.Windows.Forms.Button btnCódigo;
         private System.Windows.Forms.Label lblSalario;
         private System.Windows.Forms.Label lblRG;
-        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.TextBox txtRG;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtCodigo;
     }
 }

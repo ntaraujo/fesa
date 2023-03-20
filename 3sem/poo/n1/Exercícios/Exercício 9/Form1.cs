@@ -29,25 +29,25 @@ namespace Exercício_9
             try
             {
                 f.Id = Convert.ToInt32(txtCodigo.Text);
-                btnNome.Enabled = true;
+                btnName.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
         }
 
-        private void btnNome_Click(object sender, EventArgs e)
+        private void btnName_Click(object sender, EventArgs e)
         {
 
             try
             {
-                f.Nome = txtNome.Text;
+                f.Name = txtName.Text;
                 btnRG.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
         }
 
@@ -59,9 +59,9 @@ namespace Exercício_9
                 f.Rg = txtRG.Text;
                 btnSalário.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
         }
 
@@ -73,9 +73,9 @@ namespace Exercício_9
                 f.Salario = Convert.ToDouble(txtSalario.Text);
                 btnExibir.Enabled = true;
             }
-            catch (Exception error)
+            catch (Exception errorr)
             {
-                MessageBox.Show(error.Message);
+                MessageBox.Show(errorr.Message);
             }
         }
 
@@ -85,13 +85,13 @@ namespace Exercício_9
             {
                 funcionarios.Add(f);
                 lblExibir.Text += "ID: " + funcionarios[i].Id + "\n" +
-                "NOME: " + funcionarios[i].Nome + "\n" +
+                "NOME: " + funcionarios[i].Name + "\n" +
                 "RG: " + funcionarios[i].Rg + "\n" +
                 "Salário: " + funcionarios[i].Salario + "\n";
 
                 i++;
             }
-            btnNome.Enabled = false;
+            btnName.Enabled = false;
             btnRG.Enabled = false;
             btnSalário.Enabled = false;
             btnExibir.Enabled = false;

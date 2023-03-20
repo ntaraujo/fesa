@@ -29,7 +29,7 @@ namespace Exercício_9
                 }
             }
         }
-        public string Nome
+        public string Name
         {
             get { return nome; }
             set

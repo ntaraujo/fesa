@@ -12,7 +12,7 @@ namespace Exercício5
         private double nota1;
         private double nota2;
 
-        public string Nome
+        public string Name
         {
             get { return nome; }
             set
