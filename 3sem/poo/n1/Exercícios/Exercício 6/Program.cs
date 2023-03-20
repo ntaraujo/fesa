@@ -10,17 +10,17 @@ namespace Exercise_6
     {
         static void Main(string[] args)
         {
-            List<Aluno> alunos = new List<Aluno>();
+            List<Student> students = new List<Student>();
             for (int i = 0; i < 10; i++)
             {
                 Console.Clear();
-                Aluno aluno = new Aluno();
+                Student student = new Student();
                 do
                 {
                     try
                     {
-                        Console.WriteLine("Digite o name do aluno: ");
-                        aluno.Name = Console.ReadLine();
+                        Console.WriteLine("Student's Name: ");
+                        student.Name = Console.ReadLine();
                         break;
                     }
                     catch (Exception ex)
@@ -33,8 +33,8 @@ namespace Exercise_6
                 {
                     try
                     {
-                        Console.WriteLine("Digite a N1: ");
-                        aluno.Nota1 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("N1: ");
+                        student.Grade1 = double.Parse(Console.ReadLine());
                         break;
                     }
                     catch (Exception ex)
@@ -47,8 +47,8 @@ namespace Exercise_6
                 {
                     try
                     {
-                        Console.WriteLine("Digite a N2: ");
-                        aluno.Nota2 = double.Parse(Console.ReadLine());
+                        Console.WriteLine("N2: ");
+                        student.Grade2 = double.Parse(Console.ReadLine());
                         break;
                     }
                     catch (Exception ex)
@@ -58,21 +58,21 @@ namespace Exercise_6
                 }
                 while (true);
 
-                Console.WriteLine("Show média? S/N");
+                Console.WriteLine("Show average? Y/N");
                 if (Console.ReadLine().ToUpper() != "N")
                 {
-                    Console.WriteLine(aluno.Media);
+                    Console.WriteLine(student.Average);
                 }
-                Console.WriteLine("Continuar adicionando? S/N");
+                Console.WriteLine("Keep going? Y/N");
                 if (Console.ReadLine().ToUpper() == "N")
                 {
                     break;
                 }
-                alunos.Add(aluno);
+                students.Add(student);
             }
-            for( int i = 0; i < alunos.Count; i++ )
+            for( int i = 0; i < students.Count; i++ )
             {
-                Console.WriteLine($"Name: {0}\nN1: {1}\nN2: {2}\nMédia:{3}", alunos[i].Name, alunos[i].Nota1, alunos[i].Nota2, alunos[i].Media );
+                Console.WriteLine($"Name: {0}\nN1: {1}\nN2: {2}\nAverage:{3}", students[i].Name, students[i].Grade1, students[i].Grade2, students[i].Average );
             }
             Console.ReadKey();
         }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Exercise_6
 {
-    internal class Aluno
+    internal class Student
     {
         private string name;
-        private double nota1;
-        private double nota2;
+        private double grade1;
+        private double grade2;
 
         public string Name
         {
@@ -19,41 +19,41 @@ namespace Exercise_6
             {
                 if (value.Trim().Split().Length < 2)
                 {
-                    throw new ArgumentException("O name deve conter name e sobrename.");
+                    throw new ArgumentException("The name must have a surname");
                 }
                 name = value;
             }
         }
 
-        public double Nota1
+        public double Grade1
         {
-            get { return nota1; }
+            get { return grade1; }
             set
             {
                 if (value < 0 || value > 10)
                 {
-                    throw new ArgumentException("A nota deve estar entre 0 e 10.");
+                    throw new ArgumentException("The grade must be between 0 and 10.");
                 }
-                nota1 = value;
+                grade1 = value;
             }
         }
 
-        public double Nota2
+        public double Grade2
         {
-            get { return nota2; }
+            get { return grade2; }
             set
             {
                 if (value < 0 || value > 10)
                 {
-                    throw new ArgumentException("A nota deve estar entre 0 e 10.");
+                    throw new ArgumentException("The grade must be between 0 and 10.");
                 }
-                nota2 = value;
+                grade2 = value;
             }
         }
 
-        public double Media
+        public double Average
         {
-            get { return (nota1 + nota2) / 2; }
+            get { return (grade1 + grade2) / 2; }
         }
     }
 }

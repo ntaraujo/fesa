@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace Exercise_7
 {
-    internal class Calculadora
+    internal class Calculator
     {
 
-        public int Somar(int a, int b)
+        public int Sum(int a, int b)
         {
             return a + b;
         }
 
-        public double Somar(double a, double b)
+        public double Sum(double a, double b)
         {
             return a + b;
         }
 
-        public double Somar(string a, string b)
+        public double Sum(string a, string b)
         {
-            double valorA, valorB;
+            double valueA, valueB;
 
-            if (double.TryParse(a, out valorA) && double.TryParse(b, out valorB))
+            if (double.TryParse(a, out valueA) && double.TryParse(b, out valueB))
             {
-                return valorA + valorB;
+                return valueA + valueB;
             }
             else
             {
-                throw new Exception("Os valores informados devem ser numéricos.");
+                throw new Exception("The informed values must be numbers.");
             }
         }
     }

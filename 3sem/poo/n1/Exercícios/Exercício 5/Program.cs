@@ -11,13 +11,13 @@ namespace Exercise_5
     {
         static void Main(string[] args)
         {
-            Aluno aluno = new Aluno();
+            Student student = new Student();
             do
             {
                 try
                 {
-                    Console.WriteLine("Digite o name do aluno: ");
-                    aluno.Name = Console.ReadLine();
+                    Console.WriteLine("Student's Name: ");
+                    student.Name = Console.ReadLine();
                     break;
                 }
                 catch (Exception ex)
@@ -30,8 +30,8 @@ namespace Exercise_5
             {
                 try
                 {
-                    Console.WriteLine("Digite a N1: ");
-                    aluno.Nota1 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("N1: ");
+                    student.Grade1 = double.Parse(Console.ReadLine());
                     break;
                 }
                 catch (Exception ex)
@@ -44,8 +44,8 @@ namespace Exercise_5
             {
                 try
                 {
-                    Console.WriteLine("Digite a N2: ");
-                    aluno.Nota2 = double.Parse(Console.ReadLine());
+                    Console.WriteLine("N2: ");
+                    student.Grade2 = double.Parse(Console.ReadLine());
                     break;
                 }
                 catch (Exception ex)
@@ -55,10 +55,10 @@ namespace Exercise_5
             }
             while(true);
 
-            Console.WriteLine("Show média? S/N");
+            Console.WriteLine("Show average? Y/N");
             if (Console.ReadLine().ToUpper() == "Y")
             {
-                Console.WriteLine(aluno.Media);
+                Console.WriteLine(student.Average);
             }
             Console.ReadKey();
 

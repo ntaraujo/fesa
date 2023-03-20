@@ -19,7 +19,7 @@ namespace Exercise_4
             set {
                 if (id <= 0)
                 {
-                    throw new Exception("O id não pode ser menor ou igual a zero");
+                    throw new Exception("The id can't be less or equal zero");
                 }
                 else                
                 {

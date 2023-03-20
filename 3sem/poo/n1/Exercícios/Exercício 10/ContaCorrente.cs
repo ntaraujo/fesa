@@ -22,25 +22,25 @@ namespace Exercise_10
             Saldo = 0;
         }
 
-        public void Saque(double valor)
+        public void Saque(double value)
         {
-            if (valor > Saldo)
+            if (value > Saldo)
             {
                 throw new Exception("Saldo insuficiente.");
             }
-            Saldo -= valor;
+            Saldo -= value;
         }
 
-        public void Deposito(double valor)
+        public void Deposito(double value)
         {
-            if (valor < 0)
+            if (value < 0)
             {
                 throw new Exception("Valor deve ser positivo");
             }
             else
             { 
                 
-                Saldo += valor; 
+                Saldo += value; 
             }
         }
     }
