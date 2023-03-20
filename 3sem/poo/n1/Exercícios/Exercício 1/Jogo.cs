@@ -5,55 +5,55 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercício_1
+namespace Exercise_1
 {
-    class Jogo
+    class Game
     {
-        private int código;
-        private string nome;
-        private string categoria;
-        private DateTime data_de_lançamento;
+        private int code;
+        private string name;
+        private string category;
+        private DateTime releaseDate;
 
-        public int GetCódigo() => código;
-        public void SetCódigo(int código)
+        public int GetCode() => code;
+        public void SetCode(int code)
         {
-            if (código <= 0)
+            if (code <= 0)
             {
-                throw new Exception("Código não pode ser menor que 0 (zero)");
+                throw new Exception("Code cannot be less than 0 (zero)");
             }
             else
             {
-                this.código = código;
+                this.code = code;
             }
         }
-        public string GetNome() => nome;
-        public void SetNome(string nome) 
+        public string GetName() => name;
+        public void SetName(string name)
         {
-            if (string.IsNullOrEmpty(nome))
+            if (string.IsNullOrEmpty(name))
             {
-                throw new Exception("Nome não pode estar vazio");
+                throw new Exception("Name cannot be empty");
             }
             else
             {
-                this.nome = nome;
+                this.name = name;
             }
         }
-        public string GetCategoria() => categoria;
-        public void SetCategoria(string categoria)
+        public string GetCategory() => category;
+        public void SetCategory(string category)
         {
-            if (string.IsNullOrEmpty(categoria))
+            if (string.IsNullOrEmpty(category))
             {
-                throw new Exception("Categoria não pode estar vazia");
+                throw new Exception("Category cannot be empty");
             }
             else
             {
-                this.categoria = categoria;
+                this.category = category;
             }
         }
-        public DateTime GetData_de_lançamento() => data_de_lançamento;
-        public void SetData_de_lançamento(DateTime data)
+        public DateTime GetReleaseDate() => releaseDate;
+        public void SetReleaseDate(DateTime date)
         {
-            this.data_de_lançamento = data;
+            this.releaseDate = date;
         }
     }
 }
