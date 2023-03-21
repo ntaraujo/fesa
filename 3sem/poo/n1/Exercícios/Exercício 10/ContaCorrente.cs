@@ -6,41 +6,41 @@ using System.Threading.Tasks;
 
 namespace Exercise_10
 {
-    internal class ContaCorrente
+    internal class CheckingAccount
     {
 
-        public int Agencia { get; set; }
-        public string NumeroConta { get; set; }
-        public string NameTitular { get; set; }
-        public double Saldo { get; set; }
+        public int Agency { get; set; }
+        public string NumberAccount { get; set; }
+        public string NameHolder { get; set; }
+        public double Balance { get; set; }
 
-        public ContaCorrente(int agencia, string numeroConta, string nameTitular)
+        public CheckingAccount(int agency, string numberAccount, string nameHolder)
         {
-            Agencia = agencia;
-            NumeroConta = numeroConta;
-            NameTitular = nameTitular;
-            Saldo = 0;
+            Agency = agency;
+            NumberAccount = numberAccount;
+            NameHolder = nameHolder;
+            Balance = 0;
         }
 
-        public void Saque(double value)
+        public void Withdraw(double value)
         {
-            if (value > Saldo)
+            if (value > Balance)
             {
-                throw new Exception("Saldo insuficiente.");
+                throw new Exception("Balance insufficient.");
             }
-            Saldo -= value;
+            Balance -= value;
         }
 
-        public void Deposito(double value)
+        public void Deposit(double value)
         {
             if (value < 0)
             {
-                throw new Exception("Valor deve ser positivo");
+                throw new Exception("Value must be positive");
             }
             else
             { 
                 
-                Saldo += value; 
+                Balance += value; 
             }
         }
     }

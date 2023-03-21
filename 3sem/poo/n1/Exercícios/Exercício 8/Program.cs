@@ -10,20 +10,20 @@ namespace Exercise_8
     {
         static void Main(string[] args)
         {
-            exibição("Exemplo de texto centralizado");
-            exibição("Texto em vermelho", ConsoleColor.Red);
+            exhibition("Centralized text example");
+            exhibition("Text in red", ConsoleColor.Red);
             Console.ReadKey();
         }
-        public static void exibição(string texto)
+        public static void exhibition(string text)
         {
-            int posicaoTexto = (Console.WindowWidth + texto.Length) / 2;
-            Console.WriteLine("{0," + posicaoTexto + "}", texto);
+            int positionText = (Console.WindowWidth + text.Length) / 2;
+            Console.WriteLine("{0," + positionText + "}", text);
         }
 
-        public static void exibição(string texto, ConsoleColor cor)
+        public static void exhibition(string text, ConsoleColor color)
         {
-            Console.ForegroundColor = cor;
-            exibição(texto);
+            Console.ForegroundColor = color;
+            exhibition(text);
             Console.ResetColor();
         }
         

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise_11
 {
-    internal class ContaCorrente
+    internal class CheckingAccount
     {
     }
 }
