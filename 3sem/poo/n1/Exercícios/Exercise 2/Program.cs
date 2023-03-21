@@ -11,7 +11,7 @@ namespace Exercise2
         static void Main(string[] args)
         {
             List<Game> games = new List<Game>() { };
-            string continue = "N";
+            string go_foward = "N";
             do
             {
                 Game game = new Game();
@@ -73,10 +73,10 @@ namespace Exercise2
                 while (true);
 
                 Console.WriteLine("Want to continue adding games? [Y]/[N]\nSpaces left: " + (10-games.Count) );
-                continue = Console.ReadLine().ToUpper();
+                go_foward = Console.ReadLine().ToUpper();
                 games.Add(game);
             }
-            while (games.Count <= 10 && continue == "Y");
+            while (games.Count <= 10 && go_foward == "Y");
             Console.Clear();
 
             foreach (Game game in games)
