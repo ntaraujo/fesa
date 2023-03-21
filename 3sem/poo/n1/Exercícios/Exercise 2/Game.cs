@@ -42,7 +42,7 @@ namespace Exercise2
         public void SetCategory(string categoria)
         {
             categoria = categoria.ToLower();
-            if (!categorias.Accountins(categoria))
+            if (!categorias.Contains(categoria))
             {
                 throw new Exception("Verifique se a categoria existe ou está escrita corretamente");
             }
