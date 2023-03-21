@@ -15,6 +15,7 @@ namespace Exercise_7
             double sumDouble = calculadora.Sum(3.5, 2.5);
             double sumString = calculadora.Sum("2.5", "3.5"); 
             Console.WriteLine($"Double = {0}, int = {1}, string = {2}",sumDouble, sumInteger, sumString);
+            Console.ReadKey();
         }
     }
 }
