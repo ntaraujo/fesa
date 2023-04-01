@@ -1,0 +1,263 @@
+Uma Reflexão sobre a Pesquisa em Ciência da Computação à Luz da Classificação das Ciências e do Método Científico Raul Sidnei Wazlawick A 
+
+I. INTRODUÇÃO
+A COMPUTAÇÃO ora é classificada entre as ciências exatas ora entre as engenharias.
+Mas algumas subáreas são bastante próximas das ciências sociais e humanas.
+Anais de eventos em subáreas distintas são tão diferentes entre si que por vezes um membro de uma subárea tem dificuldade em entender o jargão ou mesmo a metodologia da outra.
+Ciência exata ou inexata, dura ou mole, empírica ou formal, este artigo analisa a Computação à luz das ciências e do método científico, visando esclarecer aos praticantes da Ciência da Computação a riqueza e variedade desta área de pesquisa.
+Este artigo é uma reflexão e por isso não segue a formatação normal de artigos de pesquisa.
+Não há também a pretensão de que este seja um estudo completo e definitivo sobre o assunto.
+Seu objetivo é explorar e levantar questões, e refletir sobre elas mais do que respondê-las.
+
+II. A COMPUTAÇÃO E A CLASSIFICAÇÃO DAS CIÊNCIAS
+Segundo a Wikipedia (1), a Ciência é o esforço para descobrir e aumentar o conhecimento humano de como a realidade funciona.
+Assim, o termo “Ciência” exclui várias atividades humanas como, por exemplo, o desenvolvimento tecnológico, como será visto mais adiante.
+Uma das ferramentas usuais dos cientistas é a análise, através da qual o universo pode ser dividido e dessa forma suas partes explicadas de forma mais compreensível.
+Assim, face à variedade de abordagens, várias classificações das ciências foram produzidas no sentido de tentar melhor entender seus métodos e objetivos.
+
+A. Ciências Formais e Empíricas
+Um dos critérios mais conhecidos de classificação das ciências é o que distingue as ciências em formais e empíricas (2).
+Pode-se dizer que as ciências formais estudam as ideias, enquanto as ciências empíricas estudam as coisas.
+As ciências formais, então, estudam as ideias independentemente de sua aplicação à natureza ou ao ser humano.
+Isso não quer dizer que não possam ser aplicadas, e usualmente o são, mas o objeto de estudo dessas ciências está na forma, ou seja, nos processos puramente lógicos ou matemáticos.
+São citadas entre as ciências formais a Lógica, a Matemática, a Microeconomia, a Estatística e os aspectos formais da Linguística.
+Dentre as subáreas da Computação encontram-se várias ciências formais: a teoria dos algoritmos, envolvendo as técnicas de programação, estruturas de dados, complexidade e decidibilidade, a teoria das linguagens formais, utilizada na construção de compiladores, os aspectos formais da inteligência artificial, o cálculo relacional em banco de dados etc.
+As ciências empíricas são também chamadas por vezes de ciências reais ou factuais.
+Elas estudam os fenômenos que ocorrem no mundo real e que, portanto, não são meramente formais.
+Elas obrigatoriamente devem fazer uso de observações para fundamentar suas descobertas.
+Nas ciências empíricas uma teoria bonita que não encontra respaldo em observações não tem nenhum valor.
+As ciências empíricas ainda podem ser divididas em dois grupos: aquelas que estudam a natureza, ou ciências naturais, e aquelas que estudam o ser humano e suas interações, ou ciências sociais (3).
+As ciências naturais estudam o universo em seus aspectos que independem da existência ou da ação do ser humano.
+Dentre elas encontram-se a Astronomia, a Física, a Química, a Biologia e as Ciências da Terra.
+Os aspectos da Computação relacionados às ciências naturais usualmente têm relação com o hardware das máquinas que efetuam computações.
+A eletrônica, os circuitos lógicos, os processadores, enfim todos os componentes físicos de um computador são estudados como fenômenos naturais.
+Uma Máquina de Turing (4), por exemplo, é um processador ideal, com memória infinita e é estudada na teoria da computação como um artefato formal.
+Já os processadores reais têm limitações físicas de espaço e velocidade e, assim, são estudados como fenômenos naturais.
+As ciências sociais estudam os aspectos das relações humanas, ou seja, da vida social dos indivíduos.
+Entre as ciências sociais encontram-se a Antropologia, a Comunicação, a Economia, a História, a Política, a Psicologia e a Sociologia, entre outras.
+As subáreas da Computação mais próximas das ciências sociais são a informática na educação, os sistemas de comércio eletrônico, certos aspectos da inteligência artificial, que estuda as interações sociais dos sistemas multiagentes baseando-se em observações do comportamento humano em sociedade, etc.
+Assim, observa-se que, dadas estas formas de classificação das ciências, encontram-se subáreas da Computação em todas elas.
+Isso sem falar das áreas multidisciplinares, que efetivamente fazem a interação da Computação com outras ciências, como Economia, Medicina, Geografia, etc.
+Existem tanto situações nas quais a Computação é aplicada para promover estudos em outras áreas, como o caso de sistemas de georreferenciamento, quanto situações nas quais conhecimentos de outras áreas são aplicados na Computação, como no caso de redes neurais e algoritmos genéticos, ambos os mecanismos computacionais inspirados na Biologia.
+
+B. Ciências Puras e Aplicadas
+Outra classificação das ciências deriva da forma como seus estudos são aplicados.
+De acordo com esta classificação existem as ciências puras e as aplicadas (5).
+As ciências puras, ou ciências fundamentais estudam os conceitos básicos do conhecimento sem preocupação com sua imediata aplicação.
+Isso não quer dizer que não sejam ciências empíricas.
+Podem ser empíricas ou formais.
+Ser básico aqui significa estar mais interessado nos fundamentos, nas leis que regem os fenômenos físicos ou as ideias.
+A Cosmologia é considerada uma ciência básica por excelência, já que estuda a formação do universo sem preocupação explícita com aplicações práticas.
+Mas a Cosmologia é uma ciência empírica, porque suas teorias precisam ser validadas pela observação de fenômenos.
+Em alguns casos, os fenômenos foram observados antes de uma teoria coerente existir, como no caso do movimento das estrelas e planetas.
+Em outros casos, a teoria surgiu antes da observação do fenômeno, como no caso dos buracos negros, que só foram efetivamente observados décadas depois de terem sido previstos.
+Já a Lógica pode também ser considerada uma ciência básica, mas formal, visto que estuda as relações entre ideias e não entre coisas físicas.
+O aspecto de ciência básica da Computação é difícil de identificar visto que a maioria dos resultados em Computação possui aplicação prática.
+Então, talvez este aspecto esteja mais ligado à intenção do pesquisador do que a uma subárea específica.
+Um exemplo claro de pesquisa básica que só veio a produzir aplicações práticas posteriormente foi a Teoria do Caos (6), que evoluiu a partir de observações de fenômenos obtidos com ferramentas computacionais.
+Outra subárea da Computação que apresenta forte característica de ciência básica é o estudo de sistemas multiagentes e também a área conhecida como matética computacional (7), ou seja, o estudo da aprendizagem humana simulada por computadores.
+O objetivo destas subáreas costuma ser entender como os processos sociais ou de aprendizagem ocorrem entre seres humanos a partir da elaboração e teste de modelos computacionais que incorporam teorias que tentam explicar alguns fenômenos.
+As ciências aplicadas por outro lado, visam à realização de descobertas que possam ser imediatamente aplicadas a algum processo industrial ou assemelhado, visando produzir algum tipo de ganho.
+As engenharias em geral podem ser enquadradas nesta classificação.
+A Computação muitas vezes é vista como uma disciplina de engenharia.
+Existe a engenharia de software, a engenharia de computação e a engenharia de computadores, cada qual com um objetivo diferenciado, mas sendo que todas têm em comum a produção de conhecimento para aplicação em processos de produção de software, sistemas ou hardware.
+A ciência aplicada muitas vezes é confundida com a tecnologia.
+Mas, como será visto adiante, são coisas distintas.
+C. Ciências Exatas e Inexatas Outra classificação caracteriza as ciências em exatas e inexatas (8).
+A Ciência da Computação normalmente é classificada entre as ciências exatas, mas algumas subáreas podem ter características totalmente diferentes.
+As ciências exatas são aquelas cujos resultados são precisos.
+Suas leis são altamente preditivas e previsíveis.
+Experimentos podem ser repetidos inúmeras vezes produzindo o mesmo resultado ou resultados estatisticamente previsíveis.
+São classificadas dentre as ciências exatas a Matemática, por excelência, mas também a Física, a Química e partes de algumas ciências naturais e sociais.
+As ciências inexatas são aquelas que podem prever comportamentos gerais de seus fenômenos, mas cujos resultados nem sempre são os esperados.
+Isto usualmente ocorre porque é muito difícil avaliar todos os dados que produzem os resultados.
+Entre as ciências inexatas pode-se classificar a Meteorologia, a Economia e a maioria das ciências sociais.
+A Computação, assim como as outras ciências exatas, também tem aspectos inexatos.
+Algoritmos genéticos e alguns modelos de redes neurais são capazes de produzir resultados inesperados mesmo quando aplicados repetidamente a um mesmo conjunto de dados.
+D. Ciências Duras e Moles Uma classificação, talvez menos conhecida, divide as ciências em duras e moles (9).
+Essa classificação tem relação com o rigor do método utilizado.
+As ciências duras então seriam aquelas que usam de rigor científico em suas observações, experimentos e deduções.
+Quando as ciências duras são formais, elas utilizam fortemente a Lógica e a Matemática como ferramentas de construção teórica.
+Já as ciências duras naturais dependem muitas vezes de comprovação estatística para dar credibilidade a seus experimentos.
+A pesquisa médica pode ser classificada neste sentido como uma ciência dura natural, pois exige grande rigor na comprovação de resultados empíricos.
+Já as ciências moles costumam aceitar evidências baseadas em dados anedotais, ou seja, em estudos de caso.
+Isso ocorre quando é difícil ou impossível conseguir realizar experimentos totalmente controlados.
+Normalmente entende-se a Computação como uma ciência dura, mas a realidade ainda, em muitos casos é que os pesquisadores têm dificuldade em providenciar dados em quantidade suficiente para dar suporte empírico a suas conclusões.
+Assim é que se vêem ainda muitos artigos em Computação que utilizam um ou alguns poucos estudos de caso para tentar “validar” uma técnica, modelo ou teoria.
+Como visto adiante, o estudo de caso é uma excelente fonte de dados para uma pesquisa exploratória, mas, a não ser no caso de contradição de uma teoria comumente aceita, o estudo de caso não valida a hipótese em estudo.
+E. Ciências Nomotéticas e Idiográficas A grande maioria das ciências é nomotética, visto que estudam fenômenos que se repetem e que podem levar à descoberta de leis gerais que permitem fazer previsões.
+Mas algumas ciências são idiográficas, visto que analisam fenômenos únicos que não se repetem, mas que têm, mesmo assim, validade como campo de estudo (10).
+A História é o grande exemplo de ciência idiográfica, visto que os fatos nunca se repetem e que é extremamente difícil, senão impossível, encontrar padrões suficientemente determinísticos na história que permitam fazer previsões a partir de observações.
+Em Computação, poucas subáreas são idiográficas.
+Em especial, o estudo da própria história da computação e o desenvolvimento de determinadas tecnologias, como linguagens, paradigmas e arquiteturas computacionais, podem ser tratadas desta forma.
+III. O MÉTODO CIENTÍFICO Várias correntes filosóficas influenciaram aquilo que hoje se conhece como Ciência.
+Essas correntes são analisadas nas próximas subseções.
+O método científico é particularmente importante em Computação porque como Ciência ela não pode se ocupar apenas da coleta de dados.
+A explicação dos dados é muito mais importante.
+Não basta, por exemplo, para provar a eficácia de um sistema, aplicá-lo em dois grupos, um de teste (A) e um de controle (B), e concluir que a média do grupo A foi maior do que a média do grupo B. Primeiro porque seria necessário demonstrar que a diferença entre as médias não é apenas fruto da casualidade.
+Certa feita um aluno aplicou um questionário a cinco pessoas.
+Três responderam “sim” e duas “não”.
+O aluno concluiu que havia uma tendência para o “sim” (60% de respostas “sim”).
+Mas que valor tem essa conclusão? Ele poderia vender a um jornal os resultados de uma pesquisa de opinião eleitoral, por exemplo, baseada em 5 entrevistas? Mesmo considerando que a diferença entre as duas médias seja significativa, essa constatação pouco valor terá sem uma teoria que explique o porquê dessa diferença.
+Se um grupo usou um software educacional e outro não e o grupo do software educacional foi melhor na avaliação isso prova o quê? Pode ser que o software tenha melhorado a aprendizagem? Sim.
+Mas também pode ser que os alunos que usaram o software simplesmente tenham estudado mais por vergonha de tirarem notas mais baixas que os outros que não usaram o software.
+Pode ser também que o grupo que não usou o software se sentiu desprestigiado e se interessou menos pelo assunto.
+Ou seja, várias explicações podem existir.
+Cabe ao pesquisador descobrir a mais provável de acordo com o método científico.
+A. Empirismo, Positivismo e Pragmatismo Talvez a mais importante de todas as influências ao método científico tenha sido o empirismo1, que estabelece que toda teoria científica seja objetiva, baseada em observações que podem ser testadas e produzindo leis gerais com poder 1 John Locke (1632-1704) é considerado o primeiro filósofo empirista. 
+
+
+preditivo.
+Desta forma, qualquer teoria científica pode ser verificada à luz da evidência empírica e, quando não explica adequadamente os fatos observáveis, pode ser contradita.
+O positivismo2 propõe que a Ciência deva se basear apenas em valores humanos, deixando a teologia, o misticismo e a metafísica em outra esfera que não deve interferir nas observações e teorias científicas.
+Assim, no caso das duas turmas que usaram o software educacional, como mencionado acima, uma teoria científica não poderia considerar que os bons espíritos ajudaram os alunos que usaram o software.
+Isso não é Ciência.
+O pragmatismo3 é uma corrente filosófica que se contrapõe ao realismo científico.
+Os realistas defendem que a Ciência, de fato, descreve a realidade.
+Já os pragmáticos assumem que não é possível saber exatamente o que é a realidade e que assim, a Ciência explica apenas os fenômenos observados e suas previsões são consistentes e úteis.
+Uma coisa que a maioria dos cientistas empíricos não admite é o conhecimento absoluto.
+Toda teoria, toda explicação relacionada aos fenômenos observados é sempre aceita por ser coerente com estes últimos.
+Mas toda teoria é sujeita a ser contradita ou refutada por observações novas que não sejam coerentes com ela.
+Até as explicações mais fundamentais podem ser refutadas caso não sejam coerentes com as observações empíricas.
+Isso porque a Ciência, de acordo com o pragmatismo, não faz declarações sobre a natureza como ela é, mas sim declarações sobre nossas observações a respeito da natureza.
+Um cientista deve estar sempre atento aos resultados de suas observações.
+Em Computação, como em outras áreas, encontrar fenômenos que não se encaixam nas explicações correntemente aceitas pode ser a chave para novas descobertas.
+B. Objetividade Outra característica patente ao método científico é a objetividade, ou seja, a possibilidade de que duas pessoas quaisquer com um nível aceitável de competência possam chegar às mesmas conclusões ao analisarem os dados.
+O critério de objetividade coloca de lado, então, as opiniões em Ciência, porque opiniões são subjetivas e dependem da experiência, caráter e motivação das pessoas que as emitem.
+Por exemplo, um programador poderia afirmar que programação funcional é melhor do que programação imperativa.
+Mas, sem uma medida objetiva que defina quantitativamente o que significa ser “melhor”, essa opinião poderia ser contestada por outros programadores.
+O embate de opiniões até pode ser saudável, mas dificilmente se faz Ciência com questões subjetivas, como julgamento ou preferências.
+A Computação também não fundamenta suas pesquisas no princípio da autoridade.
+Por isso, talvez, artigos publicados em Computação façam pouco uso de citações de autoridades clássicas.
+Usualmente, artigos em Computação apresentam conceitos obtidos na literatura, trabalhos correlatos também obtidos na literatura, dentre os mais recentes, e um trabalho 2 Auguste Compte (1798-1857) é considerado fundador da Sociologia e do positivismo. 3 John Dewey (1859-1952) foi um filósofo com grande influência no pensamento pragmático. o bjetivo, empiricamente avaliado.
+Assim, as opiniões pouco valor terão frente à análise dos dados.
+Além disso, um princípio bastante saudável em pesquisa é que se façam leituras críticas, mesmo dos trabalhos mais consagrados.
+Uma leitura com o único objetivo de aprender pode ser positiva, mas uma leitura crítica, na qual se duvida, a princípio, daquilo que o autor afirma, pode gerar muito mais ideias de pesquisa.
+C. Indução O método científico também sustenta como um de seus princípios que uma situação que se sustenta em todos os casos observados se sustenta em todos os casos, até prova em contrário.
+Isto é conhecido como princípio da indução (11).
+Não há motivos, a priori, para acreditar que leis induzidas a partir de repetidas observações tenham exceções, a não ser que esta exceção seja efetivamente observada, ou que algum outro conhecimento possa apontar a possibilidade de sua existência.
+Por exemplo, como nunca foram observados cavalos voadores (pelo menos por fontes fidedignas), e nem existem conhecimentos que poderiam indicar sua existência, não há motivos para acreditar que eles existam.
+Isso não quer dizer que se uma pessoa só viu cisnes brancos, não existam cisnes negros.
+Essa pessoa poderá aceitar inicialmente o fato de que todos os cisnes são brancos.
+Mas se tiver contato com um cisne negro, ela deverá imediatamente abandonar esta teoria.
+Assim, a indução natural só pode ser aplicada como princípio científico quando for efetivamente coerente com outros conhecimentos e observações feitas.
+Em Computação, como nas ciências formais, a indução matemática (12) é bastante usada.
+Neste caso, a prova é formal.
+Quando se deseja demonstrar que um conjunto virtualmente infinito de objetos apresenta certa propriedade, pode-se fazer isso por indução matemática, desde que se consiga definir uma regra que permita gerar todos os elementos do conjunto.
+Neste caso, deve-se provar que a propriedade vale para um elemento inicial (que não é gerado a partir de outros) e também se deve provar que a regra de geração preserva a propriedade, ou seja, se um elemento n apresenta a propriedade, então o elemento n+1, gerado pela regra, também vai necessariamente apresentar a propriedade.
+Se essas duas provas forem realizadas, então se pode concluir, formalmente, que todos os elementos apresentam a propriedade.
+Dependendo da propriedade avaliada, porém, deve-se tomar certo cuidado, pois algumas delas são difusas (13).
+Por exemplo, pode-se admitir que uma criança recém nascida seja jovem.
+Se uma pessoa é jovem, admite-se que somar um dia à sua idade não fará com que ela deixe de ser jovem.
+Assim, poder-se-ia concluir que as pessoas de qualquer idade são jovens.
+A falha deste raciocínio está na definição do “ser jovem”, que é difusa.
+A indução estrutural (14) é um caso mais geral, do qual a indução matemática é uma especialização.
+A indução estrutural é necessária quando existe mais de uma regra para formar os elementos.
+Esse princípio pode ser aplicado, entre outras coisas, em teste de software.
+Se um objeto é criado de forma consistente com sua especificação e se as operações que alteram este 
+
+
+objeto preservam sua especificação, então o objeto sempre estará consistente.
+D. Refutação O princípio da refutação (15) ou contradição de uma teoria estabelece que qualquer teoria científica que procura explicar fatos observáveis está sempre aberta para ser invalidada, caso ela não seja capaz de explicar novos observáveis.
+Um estudo de caso, enquanto pesquisa exploratória, por exemplo, não pode provar uma regra geral.
+Mas pode provar que uma regra geral comumente aceita não é totalmente válida.
+Isso acontece se o estudo de caso aponta alguma situação na qual a regra não apresenta o resultado esperado.
+Normalmente o estudo de caso deverá ter já de antemão alguma hipótese a ser analisada, para que o pesquisador o realize com um objetivo em mente.
+Mas o fato de se encontrar novos observáveis inexplicados pela lei geral não significa necessariamente que a lei deva ser integralmente descartada.
+Por exemplo, apesar da Teoria da Relatividade, a física de Newton ainda explica muito bem os fenômenos que ocorrem na superfície da Terra.
+Assim, quando novos observáveis contradizem uma teoria pode-se tanto descartar a teoria original, substituindo-a por outra totalmente nova, quanto diferenciar a teoria original em duas teorias com aplicações em subcasos específicos.
+E. Coerentismo O princípio do coerentismo (16) está altamente ligado com a filosofia do pragmatismo.
+Então, em nenhum momento o cientista vai afirmar que sua teoria explica a realidade.
+Ele só pode afirmar que sua teoria é coerente com as observações, e que pelo princípio da indução, na falta de refutação, essa teoria pode ser aceita como uma explicação.
+O coerentismo evita o problema do critério de Descartes (17) no qual, qualquer afirmação precisa ser justificada com base em outras afirmações, levando a uma regressão infinita.
+Com o coerentismo, o que se espera não é que cada afirmação tenha uma explicação, mas que ela seja coerente com um sistema de conhecimentos previamente aceito.
+F. Lâmina de Occam Uma questão que ficaria sem resposta sem o princípio da lâmina de Occam (18) é o fato de que qualquer conjunto finito de observáveis pode ter infinitas teorias explicativas, especialmente se as variações entre as teorias não puderem ser imediatamente testadas empiricamente.
+Por exemplo, a teoria que diz que a aceleração da gravidade é de cerca de 9,8 m/s2 pode ter infinitas variações se forem introduzidas adições como “exceto em 10 de janeiro de 2070, quando será de 9,6 m/s2”.
+Como não é possível testar essa teoria antes de 2070 tanto ela quanto a lei mais comumente aceita são explicações igualmente plausíveis.
+O princípio da lâmina de Occam diz que no caso de várias teorias que explicam as mesmas observações, deve-se preferir a mais simples dentre elas4.
+A mais simples será aceita como a mais correta.
+No exemplo acima, a teoria alternativa não pode ser testada antes de 2070, mas a adição que ela coloca na 4 A afirmação original de W. Ockham teria sido “Numquam ponenda est pluralitas sine necessitate”, ou seja, nunca use mais do que for realmente necessário. t eoria geral é gratuita e não tem fundamento em nenhuma explicação ou causa plausível.
+Além disso, ela não é coerente com as observações e o conhecimento geral sobre o funcionamento da gravidade.
+Sem uma regra como a Lâmina de Occam não seria possível fazer Ciência.
+Porém, algumas vezes essa regra pode ser mal usada.
+Ela não diz que a explicação mais simples sempre é preferível.
+Na verdade a explicação mais simples dentre aquelas que efetivamente explicam os observáveis, deve ser preferida em detrimento de outras.
+IV. CLASSIFICAÇÃO DOS MÉTODOS DE PESQUISA O termo “pesquisa” pode referir-se a diversas atividades humanas que vão desde a realização de pesquisas eleitorais até a pesquisa científica que busca aumentar o conhecimento humano sobre como o mundo funciona.
+A pesquisa, no contexto científico, também pode ser classificada de acordo com diferentes critérios.
+Entre eles, é possível diferenciar tipos de pesquisa de acordo com sua natureza, objetivos ou procedimentos técnicos.
+Nem sempre um trabalho de pesquisa limita-se a um único tipo.
+Além disso, alguns tipos de pesquisa podem servir de base para outros.
+A. Quanto à natureza Quanto à natureza da pesquisa, esta pode ser diferenciada em trabalho original e survey.
+O trabalho original busca apresentar conhecimento novo a partir de observações e teorias construídas para explicá-lo Assume-se a nova informação como relevante quando ela tem implicação na forma como se entende os processos e sistemas, ou quando ela tem implicação prática na sua realização.
+Já os surveys buscam apenas sistematizar uma área de conhecimento, usualmente indicando sua evolução histórica e estado da arte.
+Embora se diga que o survey é um trabalho não original e, portanto, adequado aos cursos de graduação, deve-se considerar que bons surveys só podem ser feitos por autoridades em uma área de pesquisa.
+Para que um survey seja efetivamente relevante é necessário que o autor tenha um conhecimento sólido da área e seu desenvolvimento, bem como dos problemas em aberto.
+Além disso, espera-se que o autor seja capaz de indicar causas e efeitos que vão além daquilo que se pode ler explicitamente nos artigos publicados, visto que muitas vezes as motivações para uma área evoluir em uma certa direção são implícitas.
+Espera-se também que o autor de um survey seja capaz de apresentar uma estrutura coerente para essa evolução, e não apenas uma linha cronológica de fatos isolados.
+B. Quanto aos Objetivos Em relação aos objetivos, a pesquisa pode ser exploratória, descritiva ou explicativa.
+A pesquisa exploratória é aquela em que o autor não necessariamente tem uma hipótese ou objetivo definido em mente.
+Ela pode ser considerada muitas vezes como o primeiro estágio de um processo de pesquisa mais longo.
+Na pesquisa exploratória o autor vai examinar um conjunto de fenômenos buscando anomalias que não sejam ainda 
+
+
+conhecidas e que possam ser, então, a base para uma pesquisa mais elaborada.
+A pesquisa descritiva é mais sistemática do que a exploratória.
+Com ela, busca-se obter dados mais consistentes sobre uma determinada realidade.
+Mas não há, ainda, uma interferência do pesquisador ou a tentativa de obter teorias que expliquem os fenômenos.
+Tenta-se apenas descrever os fatos como são.
+A pesquisa descritiva é caracterizada pelo levantamento de dados e pela aplicação de entrevistas e questionários.
+Assim como a pesquisa exploratória, ela pode ser considerada como um passo prévio para encontrar fenômenos não explicados pelas teorias vigentes.
+A pesquisa explicativa é a mais complexa e completa. É a pesquisa científica por excelência porque, além de analisar os dados observados, ela busca suas causas e explicações, ou seja, os fatores determinantes destes dados.
+C. Quanto aos Procedimentos Técnicos Quanto aos procedimentos técnicos, a pesquisa pode ser classificada em bibliográfica, documental, experimental, de levantamento ou ainda como pesquisa-ação.
+A pesquisa bibliográfica implica no estudo de artigos, teses, livros e outras publicações usualmente disponibilizadas por editoras e indexadas.
+A pesquisa bibliográfica é um passo fundamental e prévio para qualquer trabalho científico, mas ela, em si, não produz qualquer conhecimento novo.
+Ela apenas supre ao pesquisador informações públicas que ele ainda não possuía.
+A pesquisa documental, por outro lado, consiste na análise de documentos ou dados que não foram ainda sistematizados e publicados.
+Podem-se examinar relatórios de empresas, arquivos obtidos em órgãos públicos, bancos de dados, correspondências etc.
+Ou seja, a pesquisa documental busca encontrar informações e padrões em documentos ainda não tratados sistematicamente.
+Pesquisar por padrões, por exemplo, em documentos de requisitos elaborados por empresas de desenvolvimento de software seria um exemplo de pesquisa documental em Computação.
+A pesquisa experimental caracteriza-se pela manipulação de um aspecto da realidade pelo pesquisador.
+O pesquisador introduz, por exemplo, uma nova técnica em uma empresa de software e observa se a produtividade aumenta.
+A pesquisa experimental implica em se ter uma ou mais variáveis experimentais que podem ser controladas pelo pesquisador (o fato de usar, ou não, determinada técnica, por exemplo), e uma ou mais variáveis observadas, cuja medição poderá levar, possivelmente, à conclusão de que existe algum tipo de dependência com a variável experimental (por exemplo, avaliar a produtividade dos programadores em pontos de função por dia de trabalho, e verificar se a técnica aumenta significativamente esse valor).
+A pesquisa experimental deve utilizar rigorosas técnicas de amostragem e testes de hipóteses para que seus resultados sejam estatisticamente aceitáveis e generalizáveis (19).
+Em algumas áreas da Computação é difícil realizar pesquisa experimental seja pela dificuldade em se manipular ou medir as variáveis, seja pelo tempo que as intervenções podem levar.
+Nestes casos, pode-se fazer pesquisa de levantamento, na qual os dados existentes serão buscados diretamente no ambiente, através de observações, medições, questionários e entrevistas.
+Depois de tabuladas estas informações podem ser tomadas conclusões sobre causas e efeitos.
+A pesquisa-ação (20) é menos comum em Computação, mas é possível.
+Nela o pesquisador interage com os pesquisados envolvendo-se no trabalho de pesquisa de forma participativa buscando um determinado resultado.
+V. CIÊNCIA E TECNOLOGIA Em Computação os termos Ciência e Tecnologia quase sempre andam tão juntos que muitas pessoas têm dificuldade em distingui-los.
+Porém, a Ciência é a busca pelo conhecimento e pelas explicações.
+A Ciência constrói teorias para explicar os fatos observados.
+Já a Tecnologia é a aplicação dos conhecimentos nas atividades práticas, como, por exemplo, as atividades industriais e econômicas.
+Ao contrário da Ciência, a técnica não tem por vocação explicar o mundo.
+Ela é prática e existe para transformar o mundo, não para teorizar sobre ele.
+Observa-se que, algumas vezes, dissertações e teses em Computação, bem como artigos científicos, ainda são fortemente caracterizados como apresentações técnicas: sistemas, protótipos, frameworks, arquiteturas, modelos, processos, todas essas construções são técnicas e não necessariamente Ciência.
+Para que um trabalho seja efetivamente de cunho científico é necessário que a informação contida nele explique um pouco mais sobre o porquê das coisas funcionarem como funcionam.
+Então, a Ciência pode estar presente em ideias apresentadas em um trabalho.
+Usualmente, há um problema identificado para o qual ainda não se conhecia uma solução satisfatória.
+Há também uma hipótese, ou seja, uma ideia que pode ser testada para resolver o problema integralmente ou parcialmente.
+O trabalho deve mostrar que a ideia em questão realmente é válida, empregadas as construções do método científico que se aplicarem ao caso.
+O trabalho pode ser recheado de evidências de que, de fato, o conhecimento novo está sendo apresentado.
+Dentre essas evidências, podem-se mencionar estudos de caso, pesquisa bibliográfica comparativa, pesquisa experimental etc.
+Além disso, usualmente demonstra-se também que as novas ideias têm aplicação prática em uma ferramenta, algoritmo, protótipo, processo etc.
+Desta forma, estes artefatos podem e devem ser apresentados como elementos aos quais a ideia se incorpora, ganhando vida e aplicação prática, ou seja, realizando sua vocação técnica.
+Mas a dissertação, tese ou artigo, usualmente não deveria ser sobre o artefato, mas sobre as ideias incorporadas nele.
+Em Computação encontram-se ainda trabalhos em diferentes níveis de maturidade científica.
+No nível mais ingênuo estão os trabalhos que apenas apresentam uma nova técnica ou ferramenta e uma discussão sobre suas vantagens e pontos a serem melhorados.
+Usualmente, não há hipótese de pesquisa nem comparação com trabalhos correlatos.
+Trabalhos um pouco mais maduros apresentarão algum tipo de comparação com outros artefatos e mostrarão que o novo artefato de alguma maneira apresenta características que os outros não têm. 
+
+
+Trabalhos ainda mais maduros apresentam comparações sistemáticas e quantitativas, com métricas bem definidas e experimentos repetíveis e verificáveis.
+No melhor dos casos, estes experimentos serão conduzidos com dados e testes obtidos em benchmarks internacionalmente aceitos.
+Finalmente, o trabalho científico de maior grau de maturidade em Computação, além das evidências empíricas irá apresentar uma teoria consistente com as observações, capaz de explicar os fenômenos e que seja coerente com o sistema de conhecimento usualmente aceito.
+VI. COMENTÁRIOS FINAIS A pesquisa em Ciência da Computação, seja qual for a subárea, deve levar o pesquisador a buscar uma contribuição para o conhecimento e não apenas apresentar novas tecnologias (embora estas também sejam relevantes e importantes não são necessariamente Ciência).
+A pesquisa deve ser realizada de acordo com os princípios do método científico.
+As observações e experimentos devem ser obtidos de forma rigorosa e repetível, sempre que possível.
+Trabalhos de iniciação científica, mestrado e doutorado devem, assim, produzir Ciência para serem considerados como pesquisa científica.
+Um trabalho cujo objetivo não possa ser sumarizado em poucas frases que explicam qual o novo conhecimento produzido, possivelmente tem problemas de concepção.
+Usualmente um trabalho científico se estrutura sobre um problema de pesquisa a ser resolvido (uma questão ainda não respondida satisfatoriamente) e uma hipótese (uma possível resposta a ser avaliada).
+Se a hipótese for confirmada pela evidência empírica ou formal, então o cientista deve apresentar uma teoria que explique tal fato, usualmente como uma extensão ou alternativa a uma teoria anterior.
+Uma pesquisa bem sucedida possivelmente iniciará com uma revisão bibliográfica adequada para que se conheçam os principais conceitos na área (quando o pesquisador for iniciante, ou seja, um aluno), e para que se conheçam os últimos desenvolvimentos na área (isso em qualquer caso).
+Após esta revisão, quando o pesquisador for capaz de reconhecer as questões importantes ainda não respondidas, ele poderá realizar o trabalho de pesquisa iniciando, por exemplo, com um estudo de caso para que a pesquisa exploratória coloque à luz novas questões e problemas.
+Depois de formular uma hipótese para resolver o problema indicado e uma teoria que explica porque a hipótese funciona, o pesquisador poderá aplicar os métodos empíricos adequados para convencer aos demais que sua hipótese é correta frente aos princípios do método científico, isto é, que ela é coerente com os conhecimentos existentes e que ela é suficientemente simples para ser adequada pelo princípio da lâmina de Occam. É evidente que a pesquisa científica não pode ser definida como uma receita de bolo, na qual se deve executar sempre a mesma sequência de passos para chegar ao resultado esperado, mas espera-se sempre que ela siga determinados critérios, como os apresentados neste artigo para que seja objetiva, isto é, para que outros aceitem seus resultados como válidos independentemente de opinião ou preferência.
