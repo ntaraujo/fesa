@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_N2.Interfaces
 {
-    internal interface Ataque
+    internal interface Ataque : Base
     {
         void Ataque(string Identificação);
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_N2.Interfaces
 {
-    internal interface Fechados 
+    internal interface Fechados : Base
     {
         void LigaDesligaLimpador(string Identificacao, bool ligado) ;
     }

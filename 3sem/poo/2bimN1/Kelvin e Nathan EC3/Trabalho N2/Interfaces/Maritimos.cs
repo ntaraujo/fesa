@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trabalho_N2.Interfaces
 {
-    internal interface Maritimos
+    internal interface Maritimos : Base
     {
         void Atracar(string Identificacao);
     }
