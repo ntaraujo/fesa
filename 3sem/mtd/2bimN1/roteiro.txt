@@ -1,0 +1,26 @@
+Roteiro para N1 de Metodologia Científica 
+
+
+Etapa 1 – Pesquisa teórica
+
+•	Definição de tema relacionado às disciplinas de Engenharia da Computação
+•	Levantamento de referências científicas acerca do tema (teses, dissertações, livros e artigos científicos)
+•	Seleção de referências de acordo com atualidade, pertinência e qualidade científica. 
+•	 Deverão ser selecionados: ao menos 1 livro/capítulo de livro; 1 tese ou dissertação/capítulo de tese ou de dissertação; 2 artigos científicos.
+•	Leitura do material selecionado
+•	Deverão ser pesquisados os seguintes tópicos:
+a.	Definição de conceito (s) por pelo menos três autores/estudos diferentes
+b.	Comparação entre os conceitos
+c.	Exemplos de duas aplicações/desenvolvimentos (utilizar ao menos dois estudos diferentes para cada aplicação)
+d.	Comparação entre aplicações/desenvolvimento
+
+Etapa 2 – Relatório de pesquisa
+
+•	Elaboração de relatório de pesquisa conforme regras da ABNT, contendo citações, além de:
+
+a.	Título
+b.	Resumo
+c.	Introdução explicitando objetivos do trabalho
+d.	Referencial teórico dividido em tópicos selecionados a partir do tema
+e.	Referências bibliográficas.
+

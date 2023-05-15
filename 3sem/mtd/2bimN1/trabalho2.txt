@@ -1,0 +1,16 @@
+Resumo
+Este trabalho apresenta uma pesquisa teórica sobre o tema de Inteligência Artificial (IA) e sua relação com a Engenharia da Computação. Através do levantamento de referências científicas, incluindo livros, teses, dissertações e artigos científicos, foi realizada uma análise comparativa entre diferentes conceitos e aplicações de IA. Os resultados obtidos demonstram a relevância e o potencial impacto da IA na sociedade e na economia.
+
+Palavras-chave: Inteligência Artificial, Engenharia da Computação, pesquisa teórica.
+
+Introdução
+A Inteligência Artificial (IA) é um campo de estudo em constante evolução que tem despertado grande interesse tanto na comunidade científica quanto na sociedade em geral. Neste trabalho, realizamos uma pesquisa teórica sobre o tema de IA e sua relação com a Engenharia da Computação. O objetivo desta pesquisa é apresentar uma análise comparativa entre diferentes conceitos e aplicações de IA, a partir do levantamento de referências científicas. O relatório está organizado em tópicos que abordam a definição de conceitos por diferentes autores/estudos, a comparação entre os conceitos e exemplos de aplicações/desenvolvimentos.
+
+Referencial teórico
+A IA é um campo interdisciplinar que envolve áreas como ciência da computação, matemática, psicologia e filosofia. Segundo Kai-Fu Lee em seu livro "Inteligência Artificial", a IA é a capacidade de uma máquina de realizar tarefas que normalmente requerem inteligência humana, como reconhecimento de fala, aprendizado e resolução de problemas. Outros autores apresentam definições semelhantes, destacando a capacidade da IA de simular o comportamento inteligente humano.
+
+Uma das principais aplicações da IA é na detecção de padrões e previsão de eventos. Por exemplo, em sua tese "Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias", o autor apresenta uma investigação sobre o uso de técnicas de Aprendizado de Máquina para prever acidentes em rodovias. Outra aplicação importante da IA é na análise dos impactos sociais e econômicos dessa tecnologia. O artigo "Inteligência Artificial e sociedade: avanços e riscos" discute os principais aspectos da IA e como ela pode ser inserida nos processos organizacionais da sociedade humana.
+
+Além disso, a produção científica sobre IA tem crescido significativamente nos últimos anos. O artigo "A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos" apresenta um levantamento da produção científica nacional e internacional sobre IA utilizando técnicas métricas como a bibliometria e a altmetria.
+
+Em resumo, a pesquisa teórica realizada neste trabalho demonstra a relevância e o potencial impacto da IA na sociedade e na economia. Através do levantamento de referências científicas e da análise comparativa entre diferentes conceitos e aplicações de IA, foi possível obter uma visão abrangente sobre o tema.

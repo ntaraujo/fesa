@@ -1,0 +1,38 @@
+Resumo
+
+Inserir aqui o resumo do trabalho, utilizando fonte Times New Roman, em corpo 12, com espaçamento simples entre as linhas. Mínimo de 400 e máximo de 900 toques (correspondentes ao mínimo de cinco e máximo de 10 linhas), num só parágrafo.
+
+O resumo deve conter o tema e os objetivos da pesquisa, menção à metodologia e aos resultados obtidos.
+
+
+
+Palavras-chave
+
+Inserir aqui as palavras-chave, em seqüência na mesma linha, podendo ter um mínimo de 3 (três) e o máximo de 5 (cinco) palavras-chave, separadas por .(ponto). Usar fonte Times New Roman em corpo 12.
+
+
+Introdução
+
+Inserir aqui o texto do corpo do trabalho, usando exclusivamente a fonte Times New Roman, em corpo 12, com espaçamento 1,5 entre as linhas, e margens justificadas com 3 a 5 páginas, incluindo as referências bibliográficas, tabelas e ilustrações. Para destaques, usar, apenas, o corpo itálico (grifo), excluindo-se totalmente o sublinhado e palavras em caixa alta (a não ser em siglas que não formem palavras, exemplo CNPq) e, nas referências bibliográficas, nos sobrenomes dos autores. O negrito poderá ser usado, exclusivamente, para destacar os subtítulos ou divisões do trabalho, sempre no mesmo corpo 12, em caixa alta e baixa.
+
+As citações de mais de 3 linhas devem ser digitadas em corpo 11, com espaçamento simples entre as linhas e destacadas do texto por margem esquerda maior que a do parágrafo; as citações de até três linhas devem integrar o corpo do texto e ser assinaladas entre aspas. Informar (VIEIRA, 2005, p.79).
+
+
+__________________
+1. Inserir as notas do texto [inclusive as do título e do(s) autor(es)] em fonte (tipo) Times New Roman (não usar sublinhado e usar itálico só para grafia de palavras estrangeiras), em corpo 9 (nove), com espaçamento simples entre as linhas. As notas devem ser colocadas no pé de página, em modo de impressão (devem ficar visíveis na página).
+
+Os trabalhos poderão incluir, dentro dos limites de 3 a 5 páginas, tabelas e ilustrações, no corpo do texto ou como apêndices, no próprio arquivo do trabalho. 
+
+Deverá conter:
+
+•	Breve exposição do tema
+•	Objetivos da pesquisa
+•	Organização do relatório: os tópicos que serão abordados
+
+
+Referencial teórico
+
+Deve conter:
+
+Apresentação, descrição e explicação dos tópicos selecionados
+Citações diretas ou indiretas.

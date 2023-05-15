@@ -1,0 +1,90 @@
+Claro! Aqui estão algumas referências que podem ser úteis para o seu trabalho sobre Inteligência Artificial:
+
+Livro:
+- "Inteligência Artificial" de Kai-Fu Lee ¹
+
+Tese:
+- "Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias" ⁴
+
+Artigos científicos:
+- "Inteligência Artificial e sociedade: avanços e riscos" [^10^]
+- "A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos" ¹³
+
+Espero que essas referências sejam úteis para o seu trabalho! Se precisar de mais informações ou ajuda, é só me perguntar. 😊
+Bing AI
+
+Origem: conversa com o Bing, 12/05/2023
+(1) Inteligência artificial | Amazon.com.br. https://www.amazon.com.br/Intelig%C3%AAncia-artificial-Kai-Fu-Lee/dp/6580634324.
+(2) Possibilidades em inteligência artificial na detecção de padrões e .... https://bing.com/search?q=Intelig%c3%aancia+Artificial+tese.
+(3) Inteligência Artificial e sociedade: avanços e riscos - SciELO. https://www.scielo.br/j/ea/a/c4sqqrthGMS3ngdBhGWtKhh/.
+(4) (PDF) A produção científica sobre inteligência artificial e seus .... https://www.researchgate.net/publication/339368003_A_producao_cientifica_sobre_inteligencia_artificial_e_seus_impactos_analise_de_indicadores_bibliometricos_e_altimetricos.
+(5) Inteligência Artificial | Amazon.com.br. https://www.amazon.com.br/Intelig%C3%AAncia-Artificial-Peter-Norvig/dp/8535237011.
+(6) +15 Livros de Inteligência Artifical Grátis! [PDF] - InfoLivros.org. https://www.infolivros.org/livros-pdf-gratis/informatica/inteligencia-artifical/.
+(7) Navegação Teses e Dissertações por assunto "Inteligência artificial". https://repositorio.ufsc.br/handle/123456789/74645/browse?value=Intelig%C3%AAncia+artificial&type=subject.
+(8) Repositório Institucional da UFPB: Inteligência artificial: um .... https://repositorio.ufpb.br/jspui/handle/123456789/11842.
+(9) Possibilidades em inteligência artificial na detecção de padrões e .... https://teses.usp.br/teses/disponiveis/18/18143/tde-30042019-091209/.
+(10) Lista de Temas para TCC Sobre Inteligência Artificial: ideias novas e .... https://temastcc.com.br/temas-tcc-inteligencia-artificial/.
+(11) Tese de Doutorado em Inteligência Artificial - PPGC – UFRGS. https://www.inf.ufrgs.br/ppgc/noticia/tese-de-doutorado-em-inteligencia-artificial-7/.
+(12) SciELO - Brasil - Inteligência Artificial Inteligência Artificial. https://www.scielo.br/j/ea/a/vqwCcmGZHwkyZ8rmJTqmCQr/.
+(13) Meta lança inteligência artificial que escreve TCC e artigos acadêmicos .... https://www.tecmundo.com.br/ciencia/254843-meta-lanca-inteligencia-artificial-escreve-tcc-artigos-academicos.htm.
+(14) Artigos Científicos de Inteligência artificial - Revista Científica. https://www.nucleodoconhecimento.com.br/tag/inteligencia-artificial.
+
+
+Claro! Aqui estão alguns resumos sobre as referências que mencionei anteriormente:
+
+Livro:
+- "Inteligência Artificial" de Kai-Fu Lee: Kai-Fu Lee é um cientista, escritor e professor, uma das principais autoridades em IA do Planeta, além de ser o criador do reconhecimento de fala pela máquina, precursor da Alexa, Siri e semelhantes. Hoje, CEO da Sinovation Ventures - empresa de capital de risco que promove startups chinesas focadas em inovação. O livro fala desde os primórdios da IA no mundo, sua evolução e seu futuro, além dos desafios que trará no horizonte da sociedade e da economia de todo planeta. Com experiência tanto nos EUA como na China, o autor fala sobre o início, a evolução e a atualidade da IA nos dois países chave para essa transformação tecnológica, fazendo diversas comparações entre as duas culturas. Traz ainda uma visão muito importante sobre nosso futuro com esse componente. Acredito que uma das principais questões sobre o uso da IA é quanto aos empregos que ela substituirá. Como será a vida humana quando a máquina poderá exercer praticamente qualquer atividade, com menores taxas de erros e maior rapidez?
+
+Tese:
+- "Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias": Nesta tese é apresentada uma investigação de possibilidades em Inteligência Artificial na detecção de padrões e previsão de acidentes em rodovias. É realizada uma avaliação de diferentes técnicas de Aprendizado de Máquina baseadas em abordagens de agrupamento, classificação e predição de links, com base em dados de acidentes georreferenciados e modelados em estruturas de clustering, árvores (CART) e redes (redes neurais artificiais, redes bayesianas e redes complexas). Os resultados revelaram que as abordagens baseadas em redes complexas possibilitaram a detecção de estruturas de agrupamentos mais robustas, quando comparadas às técnicas tradicionais de clustering ⁶⁷.
+
+Artigos científicos:
+- "Inteligência Artificial e sociedade: avanços e riscos": Este artigo tem como objetivo prover informações para que o leitor comum possa melhor entender os principais aspectos da IA, em que ela difere da computação convencional e como ela pode ser inserida nos processos organizacionais da sociedade humana. Além disso, busca evidenciar os grandes avanços e potenciais riscos que essa tecnologia pode provocar caso os atores envolvidos na sua produção, utilização e regulação não criem um espaço de discussão adequado destas questões ⁹.
+- "A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos": Este artigo tem como objetivo levantar a produção científica nacional e internacional sobre inteligência artificial. A pesquisa exploratória utiliza-se de técnicas métricas de investigação, como a bibliometria e a altmetria com coleta de dados nas bases Dimensions e Altmetric.com. Realizou-se a busca pela palavra-chave entre aspas e em língua inglesa “artificial intelligence”, filtrada por artigos científicos de acesso aberto, entre os anos de 2012 e 2018 ¹².
+
+Espero que esses resumos sejam úteis para você! Se precisar de mais informações ou ajuda, é só me perguntar. 😊
+Bing AI
+
+Origem: conversa com o Bing, 12/05/2023
+(1) Possibilidades em inteligência artificial na detecção de padrões e .... https://bing.com/search?q=Possibilidades+em+intelig%c3%aancia+artificial+na+detec%c3%a7%c3%a3o+de+padr%c3%b5es+e+previs%c3%a3o+de+acidentes+em+rodovias+resumo.
+(2) Possibilidades em inteligência artificial na detecção de padrões e .... https://teses.usp.br/teses/disponiveis/18/18143/tde-30042019-091209/.
+(3) Inteligência Artificial e sociedade: avanços e riscos - SciELO. https://www.scielo.br/j/ea/a/c4sqqrthGMS3ngdBhGWtKhh/.
+(4) A produção científica sobre inteligência artificial e seus impactos .... https://www.researchgate.net/publication/339368003_A_producao_cientifica_sobre_inteligencia_artificial_e_seus_impactos_analise_de_indicadores_bibliometricos_e_altimetricos.
+(5) Inteligência artificial - Globo Livros. https://bing.com/search?q=Intelig%c3%aancia+Artificial+Kai-Fu+Lee+resumo.
+(6) Resumo: aprendizados do livro "AI 2041" de Kai-Fu Lee - StartSe. https://www.startse.com/artigos/resumo-aprendizados-do-livro-ai-2041-de-kai-fu-lee/.
+(7) Inteligência Artificial (Resenha) | J. L. Gregório. https://www.jlgregorio.com.br/2020/05/31/inteligencia-artificial-resenha/.
+(8) Inteligência artificial - Globo Livros. http://globolivros.globo.com/livros/inteligencia-artificial.
+(9) Ler Livro Inteligência Artificial – Kai-Fu Lee PDF Grátis. https://www.lerlivros.net/inteligencia-artificial-kai-fu-lee/.
+(10) Possibilidades em inteligência artificial na detecção de padrões e .... http://repositorio.eesc.usp.br/handle/RIEESC/7197.
+(11) Inteligência Artificial e sociedade: avanços e riscos. https://www.revistas.usp.br/eav/article/view/185024.
+(12) Estudos Avançados, Volume: 35, Número: 101, Publicado: 2021. https://www.scielo.br/j/ea/i/2021.v35n101/.
+(13) A produção científica sobre inteligência artificial e seus impactos .... https://brapci.inf.br/index.php/res/v/120492.
+(14) Repositório Institucional da UFMG: A produção científica sobre .... https://repositorio.ufmg.br/handle/1843/33913.
+
+Kai-Fu Lee é um cientista, escritor e professor, uma das principais autoridades em IA do Planeta, além de ser o criador do reconhecimento de fala pela máquina, precursor da Alexa, Siri e semelhantes. Hoje, CEO da Sinovation Ventures - empresa de capital de risco que promove startups chinesas focadas em inovação. O livro fala desde os primórdios da IA no mundo, sua evolução e seu futuro, além dos desafios que trará no horizonte da sociedade e da economia de todo planeta. Com experiência tanto nos EUA como na China, o autor fala sobre o início, a evolução e a atualidade da IA nos dois países chave para essa transformação tecnológica, fazendo diversas comparações entre as duas culturas. Traz ainda uma visão muito importante sobre nosso futuro com esse componente. Acredito que uma das principais questões sobre o uso da IA é quanto aos empregos que ela substituirá. Como será a vida humana quando a máquina poderá exercer praticamente qualquer atividade, com menores taxas de erros e maior rapidez?
+
+Essa reflexão permeia todo o livro, onde as esferas pública e privada precisarão se unir para evitar o colapso sob o ponto de vista humano do nosso futuro.
+
+Pontos importantes:
+
+1. Com drones, e algoritmos fazendo 50% das tarefas humanas atuais, em vez de dispersar o lucro entre várias empresas, haverá uma concentração cada vez maior dessas somas nas mãos de poucos e mais pessoas desempregadas.
+2. A verdadeira força econômica na era da implementação da IA não virá apenas de um punhado de cientistas de elite que ampliam seus limites de pesquisa mas de um exército de engenheiros bem treinados que se juntarão a empreendedores para transformar essas descobertas em empresas revolucionárias.
+3. É imperativo que reimaginemos e revigoremos a responsabilidade social corporativa, o investimento de impacto e o empreendedorismo social.
+
+
+
+
+Claro! Aqui estão as referências bibliográficas de cada uma das fontes que mencionei anteriormente, formatadas de acordo com as normas da ABNT 6023 para trabalhos científicos:
+
+Livro:
+- LEE, K. F. Inteligência Artificial. [S.l.]: [s.n.], [s.d.].
+
+Tese:
+- CHUERUBIM, M. L. Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias. [S.l.]: [s.n.], [s.d.].
+
+Artigos científicos:
+- SICHMAN, J. S. Inteligência Artificial e sociedade: avanços e riscos. Estudos Avançados, São Paulo, v. 35, n. 101, p. [s.p.], jan./abr. 2021.
+- GONTIJO, M. C. A.; ARAÚJO, R. F.; OLIVEIRA, M. A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos. Pesquisa Brasileira em Ciência da Informação e Biblioteconomia, [S.l.], v. 14, n. 3, p. [s.p.], [s.d.].
+
+Espero que essas referências sejam úteis para o seu trabalho! Se precisar de mais informações ou ajuda, é só me perguntar 😊
+Bing AI

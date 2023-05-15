@@ -1,0 +1,44 @@
+Resumo
+
+Este trabalho tem como tema a Inteligência Artificial e sua relação com as disciplinas de Engenharia da Computação. O objetivo da pesquisa é investigar as possibilidades de aplicação da IA na detecção de padrões e previsão de acidentes em rodovias. Para isso, foram selecionadas referências científicas atualizadas e pertinentes ao tema, incluindo livros, teses, dissertações e artigos científicos. A metodologia utilizada foi a pesquisa teórica, com levantamento e análise de referências científicas. Os resultados obtidos indicam que a IA pode ser uma ferramenta eficaz na detecção de padrões e previsão de acidentes em rodovias.
+
+Palavras-chave: Inteligência Artificial. Engenharia da Computação. Detecção de padrões. Previsão de acidentes. Rodovias.
+
+Introdução
+
+A Inteligência Artificial (IA) é um campo em constante evolução e que tem despertado cada vez mais interesse na comunidade científica e na sociedade em geral. Neste trabalho, o tema da IA é abordado em relação às disciplinas de Engenharia da Computação, com o objetivo de investigar as possibilidades de aplicação desta tecnologia na detecção de padrões e previsão de acidentes em rodovias.
+
+O relatório está organizado em duas partes principais: a primeira é a pesquisa teórica, onde são apresentados os conceitos relacionados à IA e suas aplicações; a segunda é o relatório de pesquisa, onde são apresentados os resultados obtidos a partir da análise das referências científicas selecionadas.
+
+Referencial teórico
+
+A IA é um campo interdisciplinar que envolve diversas áreas do conhecimento, como a computação, matemática, psicologia e filosofia. Segundo Kai-Fu Lee (2018), uma das principais autoridades em IA do Planeta, a IA tem evoluído desde seus primórdios até o presente momento, trazendo desafios para a sociedade e para a economia global.
+
+Uma das possibilidades de aplicação da IA é na detecção de padrões e previsão de acidentes em rodovias. De acordo com uma tese intitulada "Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias" (2019), diferentes técnicas de Aprendizado de Máquina podem ser utilizadas para detectar padrões e prever acidentes em rodovias.
+
+Além disso, artigos científicos como "Inteligência Artificial e sociedade: avanços e riscos" (2018) e "A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos" (2019) discutem os avanços e potenciais riscos da IA para a sociedade humana.
+
+Em resumo, o referencial teórico apresenta uma visão geral sobre o tema da IA e suas possibilidades de aplicação na detecção de padrões e previsão de acidentes em rodovias.
+
+
+
+
+Aqui está a introdução e o referencial teórico com os parágrafos adicionados:
+
+Introdução
+
+A Inteligência Artificial (IA) é um campo em constante evolução e que tem despertado cada vez mais interesse na comunidade científica e na sociedade em geral. Neste trabalho, o tema da IA é abordado em relação às disciplinas de Engenharia da Computação, com o objetivo de investigar as possibilidades de aplicação desta tecnologia na detecção de padrões e previsão de acidentes em rodovias.
+
+O relatório está organizado em duas partes principais: a primeira é a pesquisa teórica, onde são apresentados os conceitos relacionados à IA e suas aplicações; a segunda é o relatório de pesquisa, onde são apresentados os resultados obtidos a partir da análise das referências científicas selecionadas.
+
+Além disso, este trabalho busca contribuir para o debate sobre os impactos da IA na sociedade e na economia global, discutindo questões como a substituição de empregos humanos por máquinas e os desafios éticos envolvidos no uso desta tecnologia.
+
+Referencial teórico
+
+A IA é um campo interdisciplinar que envolve diversas áreas do conhecimento, como a computação, matemática, psicologia e filosofia. Segundo Kai-Fu Lee (2018), uma das principais autoridades em IA do Planeta, a IA tem evoluído desde seus primórdios até o presente momento, trazendo desafios para a sociedade e para a economia global.
+
+Uma das possibilidades de aplicação da IA é na detecção de padrões e previsão de acidentes em rodovias. De acordo com uma tese intitulada "Possibilidades em inteligência artificial na detecção de padrões e previsão de acidentes em rodovias" (2019), diferentes técnicas de Aprendizado de Máquina podem ser utilizadas para detectar padrões e prever acidentes em rodovias.
+
+Além disso, artigos científicos como "Inteligência Artificial e sociedade: avanços e riscos" (2018) e "A produção científica sobre inteligência artificial e seus impactos: análise de indicadores bibliométricos e altimétricos" (2019) discutem os avanços e potenciais riscos da IA para a sociedade humana.
+
+Em resumo, o referencial teórico apresenta uma visão geral sobre o tema da IA e suas possibilidades de aplicação na detecção de padrões e previsão de acidentes em rodovias. Além disso, destaca-se a importância do debate sobre os impactos desta tecnologia na sociedade e na economia global.
