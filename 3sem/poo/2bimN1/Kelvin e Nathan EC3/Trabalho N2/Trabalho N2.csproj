@@ -52,24 +52,6 @@
     <Compile Include="Avião.Designer.cs">
       <DependentUpon>Avião.cs</DependentUpon>
     </Compile>
-    <Compile Include="Caminhão.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Caminhão.Designer.cs">
-      <DependentUpon>Caminhão.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Carro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Carro.Designer.cs">
-      <DependentUpon>Carro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Caça.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Caça.Designer.cs">
-      <DependentUpon>Caça.cs</DependentUpon>
-    </Compile>
     <Compile Include="Classes\Aviao.cs" />
     <Compile Include="Classes\AviaoDeGuerra.cs" />
     <Compile Include="Classes\Caminhao.cs" />
