@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Trabalho_N2.Interfaces;
+using static Trabalho_N2.Classes.Veículos;
 
 namespace Trabalho_N2.Classes
 {
-    internal class AviaoDeGuerra : Ataque, Aereo
+    internal class AviaoDeGuerra : Veiculo, Ataque, Aereo
     {
         public void Arremeter()
         {

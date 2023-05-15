@@ -11,7 +11,7 @@ namespace Trabalho_N2
 {
     public partial class Form1 : Form
     {
-        private List<Veiculos.Veiculo> veiculos = new List<Veiculos.Veiculo>();
+        private List<Veículos.Veiculo> veiculos = new List<Veículos.Veiculo>();
         private List<Marca> marcas = new List<Marca>();
         private List<Modelo> modelos = new List<Modelo>();
 
