@@ -1,0 +1,12 @@
+Visto o arquivo que te passei, crie um codigo para o arquivo `Form1.cs`, que em um único Windows Forms atenda todos os requisitos abaixo:
+ - Todos os métodos devem exibir na área de notificações uma mensagem avisando que o método foi executado. Inclua na mensagem a identificação do veículo. EX:
+o	Liga/Desliga Limpador() -> exibe notificação: Limpador do veículo XXXXX ligado. 
+ - Deve ser possível fazer os cadastros dos veículos, marcas e modelos e salvá=los no tipo JSON (sem usar bibliotecas externas).
+ - Deve ser possível executar todas as ações de todos os tipos de veículos.
+ - O sistema deve ter uma opção para instanciar, automaticamente, ao menos uma instância de cada veículo.
+ - Deve ser possível realizar as seguintes consultas:
+o	Acione o limpador de todos os veículos
+o	Atraque todos os navios
+o	Ataque com todos os veículos
+o	Empine todos os veículos
+o	Exibir todos os veículos

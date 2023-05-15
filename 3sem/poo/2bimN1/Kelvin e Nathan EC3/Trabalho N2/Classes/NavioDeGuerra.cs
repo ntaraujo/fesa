@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Trabalho_N2.Interfaces;
+using static Trabalho_N2.Classes.Veículos;
 
 namespace Trabalho_N2.Classes
 {
-    internal class NavioDeGuerra : Veículos, Maritimos, Ataque
+    internal class NavioDeGuerra : Veículo, Maritimos, Ataque
     {
         public void Ataque(string Identificacao)
         {
