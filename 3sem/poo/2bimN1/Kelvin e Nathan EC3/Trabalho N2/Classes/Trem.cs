@@ -9,7 +9,7 @@ using static Trabalho_N2.Classes.Veículos;
 
 namespace Trabalho_N2.Classes
 {
-    internal class Trem : Veículo, Fechados
+    internal class Trem : Veiculo, Fechados
     {
         public int QuantidadeDeVagoes { get; set; }
 

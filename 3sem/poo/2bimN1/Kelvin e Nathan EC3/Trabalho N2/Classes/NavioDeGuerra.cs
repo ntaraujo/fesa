@@ -9,7 +9,7 @@ using static Trabalho_N2.Classes.Veículos;
 
 namespace Trabalho_N2.Classes
 {
-    internal class NavioDeGuerra : Veículo, Maritimos, Ataque
+    internal class NavioDeGuerra : Veiculo, Maritimos, Ataque
     {
         public void Ataque(string Identificacao)
         {
