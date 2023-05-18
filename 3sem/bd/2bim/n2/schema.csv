@@ -1,0 +1,33 @@
+TABLE_NAME,COLUMN_NAME,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH
+Favorecido,CodigoFavorecido,nvarchar,14
+Favorecido,NomeFavorecido,nvarchar,100
+Localizacao,SiglaUF,nvarchar,2
+Localizacao,NomeMunicipio,nvarchar,32
+OrgaoSuperior,CodigoOrgaoSuperior,nvarchar,5
+OrgaoSuperior,NomeOrgaoSuperior,nvarchar,45
+Orgao,CodigoOrgao,nvarchar,5
+Orgao,NomeOrgao,nvarchar,92
+UnidadeGestora,CodigoUnidadeGestora,nvarchar,6
+UnidadeGestora,NomeUnidadeGestora,nvarchar,45
+Recebimento,Id,int,NULL
+Recebimento,CodigoFavorecido,nvarchar,14
+Recebimento,SiglaUF,nvarchar,2
+Recebimento,CodigoOrgaoSuperior,nvarchar,5
+Recebimento,CodigoOrgao,nvarchar,5
+Recebimento,CodigoUnidadeGestora,nvarchar,6
+Recebimento,DataLancamento,date,NULL
+Recebimento,ValorRecebido,decimal,NULL
+Recebimento,Processado,bit,NULL
+Origem,Código Favorecido,nvarchar,-1
+Origem,Nome Favorecido,nvarchar,-1
+Origem,Sigla UF,nvarchar,-1
+Origem,Nome Município,nvarchar,-1
+Origem,Código Órgão Superior,nvarchar,-1
+Origem,Nome Órgão Superior,nvarchar,-1
+Origem,Código Órgão,nvarchar,-1
+Origem,Nome Órgão,nvarchar,-1
+Origem,Código Unidade Gestora,nvarchar,-1
+Origem,Nome Unidade Gestora,nvarchar,-1
+Origem,Ano e mês do lançamento,nvarchar,-1
+Origem,Valor Recebido,nvarchar,-1
+Origem,Processado,bit,NULL
