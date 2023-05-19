@@ -19,3 +19,21 @@ CROSS APPLY
     sys.dm_exec_sql_text(r.sql_handle) AS t
 CROSS APPLY
     sys.dm_exec_query_plan(r.plan_handle) AS qp
+
+SELECT
+    f.CodigoFavorecido,
+    f.NomeFavorecido,
+    SUM(r.ValorRecebido) as ValorTotalRecebido,
+    COUNT(r.Id) as TotalRecebimentos
+INTO #Temp
+FROM Recebimento r, Favorecido f
+WHERE r.CodigoFavorecido = f.CodigoFavorecido
+GROUP BY f.CodigoFavorecido, f.NomeFavorecido
+ORDER BY ValorTotalRecebido DESC
+
+SELECT COUNT(*) FROM #Temp
+
+SELECT COUNT(*) FROM ResumoFavorecido
+
+SELECT *, ValorTotalRecebido / TotalRecebimentos as ValorMedio
+FROM ResumoFavorecido ORDER BY TotalRecebimentos DESC, ValorMedio DESC
