@@ -18,6 +18,10 @@ Recebimento,CodigoUnidadeGestora,nvarchar,6
 Recebimento,DataLancamento,date,NULL
 Recebimento,ValorRecebido,decimal,NULL
 Recebimento,Processado,bit,NULL
+ResumoFavorecido,CodigoFavorecido,nvarchar,14
+ResumoFavorecido,ValorTotalRecebido,decimal,NULL
+ResumoFavorecido,NomeFavorecido,nvarchar,100
+ResumoFavorecido,TotalRecebimentos,int,NULL
 Origem,Código Favorecido,nvarchar,-1
 Origem,Nome Favorecido,nvarchar,-1
 Origem,Sigla UF,nvarchar,-1
