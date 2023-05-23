@@ -1,0 +1,152 @@
+Exercício 1. Um engenheiro precisa descobrir o valor do ângulo x¯ (em radianos) tal
+que ele seja igual ao valor de seu próprio cosseno, ou seja, x¯ = cos(¯x). Percebendo que a
+resolução desse problema é equivalente a encontrar a única raiz de
+f(x) = x − cos(x),
+ele decidiu utilizar o Método de Newton-Raphson para resolver o problema.
+Diante disso, modifique o arquivo “Exercicio_1.py”
+de acordo com as instruções nos itens a) e b) a seguir. Você deverá entregar o arquivo
+“Exercicio_1.py” modificado para que as questões sejam consideradas respondidas.
+a) Modifique a função “funcao_f_linha,” contida no arquivo “Exercicio_1.py”, de modo
+a implementar o cálculo da função f'(x)
+b) Modifique o script principal contido no arquivo “Exercicio_1.py”, de modo a encontrar
+uma aproximação para a raiz x¯ da função f(x), utilizando o método de Newton Raphson. Considere δ1 = δ2 = 10^−9
+em seu código, e escolha um valor para a estimativa
+inicial x0 com base no gráfico da função f(x), que tem essa descrição:
+Fig 1: Uma linha curva que passa pelas coordenadas (-1.25, -1.6), (-0.5, -1.4), (0.0, -1.0), (0.5, -0.4), (0.7, 0.0), (1.0, 0.5)
+Exercício 2. Considere a função periódica f(x), de período
+fundamental T0 = 2, com a seguinte descrição gráfica:
+Fig 2: Uma linha reta que ao chegar em (-5/2, 0), sobe para (-5/2, 1), continua para (-3/2, 1) e desce para (-3/2, 0), repetindo assim a sequência -5/2, -3/2, -1/2, 1/2, 3/2, 5/2
+Sabe-se que os coeficientes bn são todos iguais a zero para essa função. Diante disso,
+modifique o arquivo “Exercicio_2.py” fornecido no Moodle da disciplina, de acordo com as
+instruções nos itens a) e b) a seguir. Você deverá entregar o arquivo “Exercicio_2.py”
+modificado.
+a) Encontre os coeficientes a0 e an (n ≥ 1) da expansão em Série de Fourier dessa
+função. Em seguida, modifique a função “coeficientes_fourier,” contida no arquivo
+“Exercicio_2.py” fornecido no Moodle da disciplina, de modo a implementar os coeficientes an encontrados por você.
+b) Modifique o script principal contido no arquivo “Exercicio_2.py”, de modo a calcular
+a aproximação da função da Fig. 2 pelas N primeiras harmônicas de sua expansão
+em série de Fourier, com base na função modificada por você no item anterior. Em
+seguida, execute o arquivo “Exercicio_2.py,” gerando as aproximações considerando as
+primeiras, considerando os seguintes valores para N:
+– N = 1,
+– N = 3,
+– N = 5,
+– N = 7,
+– N = 9,
+– N = 11,
+– N = 13,
+– N = 25, e
+– N = 50.
+Para cada valor de N, deve ser gerada uma figura em formato .jpg contendo o gráfico da
+função f(x) da Figura 2 e da aproximação.
+Dica – as seguintes relações podem ser úteis:
+• sen(−x) = −sen(x) para qualquer x, e
+• cos(−x) = cos(x) para qualquer x.
+
+Exercicio_1.py
+```
+import numpy as np
+import math
+
+def funcao_f(x):    
+    #ATENÇÃO! NÃO HÁ NECESSIDADE DE ALTERAR ESTA FUNÇÃO.
+    
+    #Entrada: o valor de x onde queremos avaliar o valor de f(x) = x - cos(x)
+    
+    #Saída: o valor de f(x) = x - cos(x)    
+    f = x - np.cos(x)
+    return f
+
+def funcao_f_linha(x):
+    #Entrada: o valor de x onde queremos avaliar o valor de f'(x)
+    
+    #Saída: o valor de f'(x)
+    return f_linha
+
+def metodo_newton_raphson(x0,delta1,delta2):
+
+    return estimativa
+
+#Script Principal:
+
+#Estimativa Inicial:
+x0 = 
+#Definição das precisões desejadas delta1 e delta2:
+delta1 = 1e-9
+delta2 = 1e-9
+#Cálculo da estimativa usando a função "metodo_newton_raphson" (que vocês devem
+#completar)
+estimativa = metodo_newton_raphson(x0,delta1,delta2)
+#Impressão da estimativa final na tela:
+print('Estimativa final: ',estimativa)
+```
+
+Exercicio_2.py
+```
+#Importação das bibliotecas de interesse:
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+from scipy import signal
+
+def funcao_gera_figura(f,s,t,nome):
+    #ATENÇÃO! NÃO HÁ NECESSIDADE DE ALTERAR ESTA FUNÇÃO.
+    
+    #Entradas:
+    #f [numpy array] : função periódica que estamos interessados 
+    #em analisar
+    #s [numpy array]: expansão em Série de Fourier da função f, pre-
+    #viamente calculada
+    #t [numpy array]: vetor de tempo
+    #nome [string]: nome do arquivo a ser salvo.
+    #Importação das bibliotecas de interesse:
+    
+    #Resolução da figura:
+    dpi = 300
+    #Criação da figura, com tamanho e resolução especificados
+    fig, ax = plt.subplots()
+    fig.set_size_inches(5, 3)
+    fig.set_dpi(dpi)
+    
+    #Gera os gráficos da função de interesse e da sua aproximação
+    #por Série de Fourier:
+    plt.plot(t,f,'-b')
+    plt.plot(t,s,'-r')
+    #Definição dos eixos
+    ax.axis([min(t), max(t), -0.5, 1.5])
+    #Gera a grade para facilitar a leitura do gráfico
+    ax.grid()
+    #Nomes de cada eixo:
+    plt.xlabel(r'$t[s]$')
+    #Salva a imagem em formato pdf.
+    plt.savefig(nome+'.jpg', format='jpg', dpi=dpi)
+
+def coeficientes_fourier(numero_de_harmonicas):
+    #Entrada:
+    #numero_de_harmonicas [int]: numero de harmônicas a serem consi-
+    #deradas
+    #Saída:
+    #a_n [numpy array]: vetor de coeficientes a_n (n entre 1 e 
+    #numero_de_harmonicas) da expansão em Série de Fourier
+
+# Script principal:
+t = np.linspace(-2, 2, 10000) 
+
+T0 = 2
+
+f0 = 1/T0
+
+f = 0.5*(signal.square(2*np.pi*f0*(t+T0/4))+np.ones_like(t))
+ 
+a0 = 
+
+vetor_harmonicas = [1,3,5,7,9,11,13,25,50]
+
+for N in vetor_harmonicas:    
+    an = coeficientes_fourier(N)
+    s = 
+    for n in range(N):
+
+    nome_figura = "quadrada_"+str(N)+"_harmonicas.jpg"
+    funcao_gera_figura(f,s,t,nome_figura)
+```
