@@ -41,6 +41,12 @@ ORDER BY NumFavorecidos DESC
 cursor.execute(query2)
 results2 = cursor.fetchall()
 
+results2_sorted = sorted(results2, key=lambda x: x[1], reverse=True)
+top_results2 = results2_sorted[:len(results2_sorted)-6]
+other_results2 = results2_sorted[len(results2_sorted)-6:]
+other_sum = sum(row[1] for row in other_results2)
+results2 = top_results2 + [('Outros', other_sum)]
+
 # Consulta para obter os dados para a terceira visualização
 query3 = """
 SELECT TOP 10 NomeOrgaoSuperior, SUM(ValorRecebido) as TotalRecebido
