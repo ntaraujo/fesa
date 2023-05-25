@@ -7,3 +7,5 @@ SQL Server: ntaraujo.database.windows.net
 BD: test
 
 Video sobre importar dados: https://www.youtube.com/watch?v=IowqLqR0xn4
+
+![DER](DER.png)
