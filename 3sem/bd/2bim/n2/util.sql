@@ -37,3 +37,12 @@ SELECT COUNT(*) FROM ResumoFavorecido
 
 SELECT *, ValorTotalRecebido / TotalRecebimentos as ValorMedio
 FROM ResumoFavorecido ORDER BY TotalRecebimentos DESC, ValorMedio DESC
+
+DECLARE @start_time DATETIME;
+SET @start_time = GETDATE();
+
+WHILE DATEDIFF(SECOND, @start_time, GETDATE()) < 60
+BEGIN
+    WAITFOR DELAY '00:00:00.3';
+    RAISERROR ('(1 linha afetada)', 0, 1) WITH NOWAIT;
+END
